@@ -1,0 +1,33 @@
+<h1 id="news">
+  News
+</h1>
+<div class="row">
+  <div class="col-sm-8">
+    <div class="news-item" *ngFor="let item of news;  let i = index">
+      <div *ngIf="i <= 2 || showAll">
+        <h3>{{item.heading}}</h3>
+        <div *ngIf="item.innerHtml != null" [innerHtml]="item.innerHtml"></div>
+        <div *ngIf="item.text != null">
+          <p>{{item.text}}</p>
+        </div>
+        <div *ngIf="item.img != null">
+          <a href="{{item.img}}" data-lightbox="image" data-title="{{item.caption}}">
+            <img height="300px" class="ui bordered small image" src="{{item.img}}">
+          </a>
+        </div>
+        <em> {{item.date}}</em>
+      </div>
+    </div>
+    <div *ngIf="!showAll">
+      <p></p>
+      <p>
+        <a class="btn" (click)="toggleAll()">Show older news</a>
+      </p>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <a class="twitter-timeline" href="https://twitter.com/DiskordNorway" data-widget-id="351366414818504704">
+      Tweets by @DiskordNorway
+  </a>
+  </div>
+</div>
