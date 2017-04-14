@@ -31,3 +31,6 @@ body {
   line-height: 1.42857143;
 }
 
+.blockquote {
+  border-left: 5px solid #444444;
+}

@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { DiscoComponent } from './disco/disco.component';
 import { LiveComponent } from './live/live.component';
 import { ReleaseHeadingComponent } from './disco/release-heading/release-heading.component';
+import { ReleaseCarouselComponent } from './disco/release-carousel/release-carousel.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ReleaseHeadingComponent } from './disco/release-heading/release-heading
     AboutComponent,
     DiscoComponent,
     LiveComponent,
-    ReleaseHeadingComponent
+    ReleaseHeadingComponent,
+    ReleaseCarouselComponent
   ],
   imports: [
     BrowserModule,
