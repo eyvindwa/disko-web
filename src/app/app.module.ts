@@ -7,12 +7,18 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NewsComponent } from './news/news.component';
 import { AboutComponent } from './about/about.component';
+import { DiscoComponent } from './disco/disco.component';
+import { LiveComponent } from './live/live.component';
+import { ReleaseHeadingComponent } from './disco/release-heading/release-heading.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewsComponent,
-    AboutComponent
+    AboutComponent,
+    DiscoComponent,
+    LiveComponent,
+    ReleaseHeadingComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +32,14 @@ import { AboutComponent } from './about/about.component';
       {
         path: 'about',
         component: AboutComponent
+      },
+      {
+        path: 'disco',
+        component: DiscoComponent
+      },
+      {
+        path: 'live',
+        component: LiveComponent
       },
       {
         path: '',

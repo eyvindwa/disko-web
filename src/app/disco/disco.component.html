@@ -1,0 +1,12 @@
+<h1>Discography</h1>
+
+<div class="disco-item" *ngFor="let item of discography;  let i = index">
+  <h3>{{item.title}}</h3>
+  <release-heading [release]="item"></release-heading>
+
+  <div *ngFor="let img of item.images">    
+    <a href="{{img.path}}" data-lightbox="image" data-title="{{img.caption}}">
+      <img width="25%" class="ui bordered small image" src="{{img.path}}">
+    </a>
+  </div>
+</div>
