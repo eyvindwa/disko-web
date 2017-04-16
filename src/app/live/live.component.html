@@ -1,3 +1,34 @@
-<p>
-  live works!
-</p>
+<h1>Live</h1>
+
+<h3>Upcoming gigs</h3>
+<div *ngIf="upcoming.length > 0">
+  <ul>
+    <li *ngFor="let p of past">
+      {{p.date}}: {{p.description}}
+      <div *ngIf="p.gigs?.length > 0">
+        <ul>
+          <li *ngFor="let g of p.gigs">
+            {{g.date}}: {{g.description}}
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+<div *ngIf="upcoming.length == 0">
+  <p>None at the moment, stay tuned for updates!</p>
+</div>
+
+<h3>Past gigs</h3>
+<ul>
+  <li *ngFor="let p of past">
+    {{p.date}}: {{p.description}}
+    <div *ngIf="p.gigs?.length > 0">
+      <ul>
+        <li *ngFor="let g of p.gigs">
+          {{g.date}}: {{g.description}}
+        </li>
+      </ul>
+    </div>
+  </li>
+</ul>

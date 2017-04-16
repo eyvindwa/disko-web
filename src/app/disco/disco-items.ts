@@ -1,6 +1,6 @@
 import {DiscoItem} from './disco-item';
 
-export const Discography : DiscoItem[] = [
+export const Discography: DiscoItem[] = [
     {
         title: 'Oscillations',
         versions: [
@@ -27,12 +27,12 @@ export const Discography : DiscoItem[] = [
                 year: 2016,
                 format: 'Tape',
                 catalogNumber: 'CURE04'
-            },            
+            },
         ],
         images: [
             {
-                path: 'assets/img/releases/oscillations/Diskord_Oscillations_LP_version_RGB_1000_px.jpg',  
-                caption: 'Oscillations LP front cover, by Sindre Foss Skancke'              
+                path: 'assets/img/releases/oscillations/Diskord_Oscillations_LP_version_RGB_1000_px.jpg',
+                caption: 'Oscillations LP front cover, by Sindre Foss Skancke'
             },
             {
                 path: 'assets/img/releases/oscillations/oscillations-cd.jpg',
@@ -41,7 +41,7 @@ export const Discography : DiscoItem[] = [
             {
                 path: 'assets/img/releases/oscillations/oscillations-mc.jpg',
                 caption: 'Oscillations MC'
-            }            
+            }
         ],
         quotes: [
             {
@@ -59,7 +59,7 @@ export const Discography : DiscoItem[] = [
             {
                 quote: 'If you’re looking for something to get the frayed wires in your head operating again or just want to get you face smashed by something intelligent and thought provoking, this band can treat what ails you every damn time.',
                 cite: 'Meat Mead Metal'
-            }                        
+            }
         ],
         lineup: [
             {

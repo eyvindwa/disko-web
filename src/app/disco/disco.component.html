@@ -5,8 +5,13 @@
   <release-heading [release]="item"></release-heading>
   <release-carousel [release]="item"></release-carousel>
 
-  <div *ngFor="let q of item.quotes">
+  <h4>Lineup</h4>
+  <ul *ngFor="let l of item.lineup">
+    <li>{{l.name}}: {{l.instrument}}</li>
+  </ul>
 
+  <h4>Quotes</h4>
+  <div *ngFor="let q of item.quotes">
     <blockquote class="blockquote">
       <p class="mb-0"><em>{{q.quote}}</em></p>
       <footer class="blockquote-footer">{{q.cite}}</footer>

@@ -11,6 +11,7 @@ import { DiscoComponent } from './disco/disco.component';
 import { LiveComponent } from './live/live.component';
 import { ReleaseHeadingComponent } from './disco/release-heading/release-heading.component';
 import { ReleaseCarouselComponent } from './disco/release-carousel/release-carousel.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReleaseCarouselComponent } from './disco/release-carousel/release-carou
     DiscoComponent,
     LiveComponent,
     ReleaseHeadingComponent,
-    ReleaseCarouselComponent
+    ReleaseCarouselComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +44,10 @@ import { ReleaseCarouselComponent } from './disco/release-carousel/release-carou
       {
         path: 'live',
         component: LiveComponent
+      },
+      {
+        path: 'contact',
+        component: ContactComponent
       },
       {
         path: '',

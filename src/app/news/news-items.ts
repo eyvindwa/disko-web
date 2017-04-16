@@ -15,29 +15,29 @@ export const News = [
         heading: "Tour with DHG",
         innerHtml: `We are ready to embark on a week of debauchery with our friends from DHG. Here are the dates and venues:
 <br/>
-18.06: Copenhagen, Denmark - Pumpehuset
-<a href="https://www.facebook.com/events/973207016100904/" target="_blank">https://www.facebook.com/events/973207016100904/</a>
+18.06: Copenhagen, Denmark - Pumpehuset.
+<a href="https://www.facebook.com/events/973207016100904/" target="_blank">Event page</a>
 <br/>
-19.06: Poznan, Poland - U Bazyla
-<a href="https://www.facebook.com/events/246087075763522/"  target="_blank">https://www.facebook.com/events/246087075763522/</a>
+19.06: Poznan, Poland - U Bazyla.
+<a href="https://www.facebook.com/events/246087075763522/"  target="_blank">Event page</a>
 <br/>
-20.06: Erfurt, Gemany - From Hell Club
-<a href="https://www.facebook.com/events/1693306134277505/"  target="_blank">https://www.facebook.com/events/1693306134277505/</a>
+20.06: Erfurt, Gemany - From Hell Club.
+<a href="https://www.facebook.com/events/1693306134277505/"  target="_blank">Event page</a>
 <br/>
-21.06: Vienna, Austria - Viper Room
-<a href="https://www.facebook.com/events/558979454263817/" target="_blank">https://www.facebook.com/events/558979454263817/</a>
+21.06: Vienna, Austria - Viper Room.
+<a href="https://www.facebook.com/events/558979454263817/" target="_blank">Event page</a>
 <br/>
-22.06: Antwerpen, Belgium - Kavka
-<a href="https://www.facebook.com/events/1782373148653053/" target="_blank">https://www.facebook.com/events/1782373148653053/</a>
+22.06: Antwerpen, Belgium - Kavka.
+<a href="https://www.facebook.com/events/1782373148653053/" target="_blank">Event page</a>
 <br/>
-23.06: Lille, France - El Diablo Club
-<a href="https://www.facebook.com/events/1622744198049455/" target="_blank">https://www.facebook.com/events/1622744198049455/</a>
+23.06: Lille, France - El Diablo Club.
+<a href="https://www.facebook.com/events/1622744198049455/" target="_blank">Event page</a>
 <br/>
-24.06: Arnhem, The Netherlands - Willemeen
-<a href="https://www.facebook.com/events/1712364585699530/" target="_blank">https://www.facebook.com/events/1712364585699530/</a>
+24.06: Arnhem, The Netherlands - Willemeen.
+<a href="https://www.facebook.com/events/1712364585699530/" target="_blank">Event page</a>
 <br/>
-25.06: Oberhausen, Germany - Helvete
-<a href="https://www.facebook.com/events/212467622463070/" target="_blank">https://www.facebook.com/events/212467622463070/</a>`,
+25.06: Oberhausen, Germany - Helvete.
+<a href="https://www.facebook.com/events/212467622463070/" target="_blank">Event page</a>`,
         date: "2016-06-15",
         img: "assets/img/posters/DHG_Diskord_Pre_tour_poster.jpg",
         caption: "A Shadow Over Europe Tour 2016"
