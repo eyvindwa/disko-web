@@ -1,16 +1,19 @@
-import { Component, OnInit } from '@angular/core';
-import {News} from './news-items';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+
+import { News } from './news-items';
 
 @Component({
   selector: 'app-news',
   templateUrl: './news.component.html',
   styleUrls: ['./news.component.css']
 })
-export class NewsComponent implements OnInit {
+export class NewsComponent implements OnInit, OnDestroy {
   news = News;
   showAll = false;
-  
-  constructor() {
+  sub: any;
+
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
@@ -21,14 +24,35 @@ export class NewsComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    !function (d :any, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-      if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id; js.src = p + "://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
+    this.sub = this.router.events.subscribe(val => {
+      if (val instanceof NavigationEnd) {
+        (<any>window).twttr = (function (d, s, id) {
+          let js: any;
+          const fjs = d.getElementsByTagName(s)[0], t = (<any>window).twttr || {};
+          if (d.getElementById(id)) {
+            return t;
+          }
+          js = d.createElement(s);
+          js.id = id;
+          js.src = 'https://platform.twitter.com/widgets.js';
+          fjs.parentNode.insertBefore(js, fjs);
+
+          t._e = [];
+          t.ready = function (f: any) {
+            t._e.push(f);
+          };
+
+          return t;
+        }(document, 'script', 'twitter-wjs'));
+
+        if ((<any>window).twttr.ready()) {
+          (<any>window).twttr.widgets.load();
+        }
       }
-    }(document, "script", "twitter-wjs");
+    });
   }
- 
+
+  ngOnDestroy() {
+    this.sub.unsubscribe();
+  }
 }
