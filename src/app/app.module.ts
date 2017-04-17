@@ -36,7 +36,7 @@ const appRoutes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/news',
+        redirectTo: 'news',
         pathMatch: 'full'
       }
     ];

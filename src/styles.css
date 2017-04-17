@@ -3,7 +3,6 @@
     font-size: "12px";
 }
 
-/* Smartphones ----------- */
-@media only screen and (max-width: 760px) {
-  #ndm { display: none; }
+a:link, a:visited {
+  color: lightgray;
 }

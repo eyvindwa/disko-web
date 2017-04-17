@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  @ViewChild('navbarToggler') navbarToggler: ElementRef;
+
+  navBarTogglerIsVisible() {
+    return this.navbarToggler.nativeElement.offsetParent !== null;
+  }
+
+  collapseNav() {
+    if (this.navBarTogglerIsVisible()) {
+      this.navbarToggler.nativeElement.click();
+    }
+  }
 }
