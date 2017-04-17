@@ -13,14 +13,14 @@ body {
   border-color:black;
 }
 
-.navbar-default .navbar-nav>.active>a  {
+/*.navbar-default .navbar-nav>.active>a  {
   background-color: black;
-}
+}*/
 
-.navbar-default .navbar-nav>.active>a:hover {
+/*.navbar-default .navbar-nav>.active>a:hover {
   background-color: #444444;
   color: black;  
-}
+}*/
 
 .jumbotron,
 .jumbotron p {
