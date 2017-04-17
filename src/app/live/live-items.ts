@@ -5,14 +5,14 @@ export const Past  = [
 { date: '07-08.10.2016', description: ' Old Grave Fest V, Bucuresti, Romania '},
 { date: 'June 2016', description : 'European tour with DHG',
     gigs: [
-    { date: '18.06.2016', description: ' Copenhagen, Denmark - Pumpehuset https://www.facebook.com/events/973207016100904/'},
-    { date: '19.06.2016', description: ' Poznan, Poland - U Bazyla https://www.facebook.com/events/246087075763522/'},
-    { date: '20.06.2016', description: ' Erfurt, Gemany - From Hell Club https://www.facebook.com/events/1693306134277505/'},
-    { date: '21.06.2016', description: ' Vienna, Austria - Viper Room https://www.facebook.com/events/558979454263817/'},
-    { date: '22.06.2016', description: ' Antwerpen, Belgium - Kavka https://www.facebook.com/events/1782373148653053/'},
-    { date: '23.06.2016', description: ' Lille, France - El Diablo Club https://www.facebook.com/events/1622744198049455/'},
-    { date: '24.06.2016', description: ' Arnhem, The Netherlands - Willemeen https://www.facebook.com/events/1712364585699530/'},
-    { date: '25.06.2016', description: ' Oberhausen, Germany - Helvete https://www.facebook.com/events/212467622463070/'}
+    { date: '18.06.2016', description: ' Copenhagen, Denmark - Pumpehuset'},
+    { date: '19.06.2016', description: ' Poznan, Poland - U Bazyla'},
+    { date: '20.06.2016', description: ' Erfurt, Gemany - From Hell Club'},
+    { date: '21.06.2016', description: ' Vienna, Austria - Viper Room'},
+    { date: '22.06.2016', description: ' Antwerpen, Belgium - Kavka'},
+    { date: '23.06.2016', description: ' Lille, France - El Diablo Club'},
+    { date: '24.06.2016', description: ' Arnhem, The Netherlands - Willemeen'},
+    { date: '25.06.2016', description: ' Oberhausen, Germany - Helvete'}
     ]},
 { date: '25-27.03.2016', description: ' WitchFest, Johannesburg, South Africa.  '},
 { date: '29.01.2016', description: ' Mono Goes Metal Festival, Århus, Denmark.  '},

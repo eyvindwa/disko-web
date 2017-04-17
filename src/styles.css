@@ -2,3 +2,8 @@
 .jumbotron {
     font-size: "12px";
 }
+
+/* Smartphones ----------- */
+@media only screen and (max-width: 760px) {
+  #ndm { display: none; }
+}

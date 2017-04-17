@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NewsComponent } from './news/news.component';
@@ -13,22 +13,7 @@ import { ReleaseHeadingComponent } from './disco/release-heading/release-heading
 import { ReleaseCarouselComponent } from './disco/release-carousel/release-carousel.component';
 import { ContactComponent } from './contact/contact.component';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    NewsComponent,
-    AboutComponent,
-    DiscoComponent,
-    LiveComponent,
-    ReleaseHeadingComponent,
-    ReleaseCarouselComponent,
-    ContactComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule,
-    RouterModule.forRoot([
+const appRoutes: Routes = [
       {
         path: 'news',
         component: NewsComponent
@@ -54,7 +39,24 @@ import { ContactComponent } from './contact/contact.component';
         redirectTo: '/news',
         pathMatch: 'full'
       }
-    ])
+    ];
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    NewsComponent,
+    AboutComponent,
+    DiscoComponent,
+    LiveComponent,
+    ReleaseHeadingComponent,
+    ReleaseCarouselComponent,
+    ContactComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
