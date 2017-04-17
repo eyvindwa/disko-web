@@ -1,5 +1,11 @@
 <h1>Discography</h1>
 
+To order items from the discography directly from the band, check out our 
+<a href="https://diskord.bandcamp.com" target="_blank">Bandcamp page</a> 
+or <a routerLink="/contact">contact us</a>.
+
+
+
 <div class="disco-item" *ngFor="let item of discography;  let i = index">
   <h3>{{item.title}}</h3>
   <release-heading [release]="item"></release-heading>
