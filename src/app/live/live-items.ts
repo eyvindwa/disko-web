@@ -61,7 +61,7 @@ export const Past  = [
 { date: '25.05.2007', description: ' Scene 37, Horten, together with She Said Destroy and Execration.'},
 { date: '20.04.2007', description: ' Club Maiden, Oslo, together with Abominat and Grotesque Hysterectomy.'},
 { date: '04.04.2007', description: ' Elm Street, Oslo, together with She Said Destroy and Manngard.'},
-{ date: '16.03.2007', description: ' Rivals, TÃ¸nsberg, together with She Said Destroy and Execration.'},
+{ date: '16.03.2007', description: ' Rivals, Tønsberg, together with She Said Destroy and Execration.'},
 { date: '18.10.2005', description: ' Garage, Oslo, together with noplacetohide.'},
 { date: '02.07.2005', description: ' Skuret, Oslo, together with Watain and Ghastly. '},
 { date: '10.09.2004', description: ' South of Heaven #8, Betong, Chateau Neuf, Oslo, together with Chton.'},
