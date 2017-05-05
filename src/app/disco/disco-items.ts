@@ -64,20 +64,22 @@ export const Discography: DiscoItem[] = [
         ],
         lineup: [
             {
-                name: 'Eyvind',
-                instrument: 'Bass guitar, electric upright bass, theremin and vocals'
-            },
-            {
                 name: 'Håvard',
                 instrument: 'Guitar and vocals'
             },
             {
                 name: 'Hans Jørgen',
                 instrument: 'Drums and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass guitar, electric upright bass, theremin and vocals'
             }
-
         ]
     },
+    /* **************************
+    DYSTOPICS
+    *************************** */
     {
         title: 'Dystopics',
         identifier: 'dystopics',
@@ -151,5 +153,55 @@ export const Discography: DiscoItem[] = [
                 name: 'Hans Jørgen',
             }
         ]
+    },
+    /* **************************
+    OSLO WE ROT
+    *************************** */
+    {
+        title: 'Oslo We Rot',
+        identifier: 'OsloWeRot',
+        versions: [
+            {
+                label: 'Unborn Productions',
+                year: 2010,
+                format: '2x Split 7"',
+                catalogNumber: 'COVEN001'
+            },
+            {
+                label: 'Snake Oil Kassettforlag / Unborn Productions',
+                year: 2017,
+                format: 'MC',
+                catalogNumber: 'Cure07 / Coven016'
+            }
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot-front-cover.jpg',
+                caption: 'Oslo We Rot front cover, by Kristian Valbo'
+            },
+            {
+                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot-collage.jpg',
+                caption: 'Oslo We Rot split vinyl collage'
+            },
+            {
+                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot_tape.jpg',
+                caption: 'Oslo We Rot tape release'
+            }
+        ],
+        quotes: [        ],
+        lineup: [
+            {
+                name: 'Espen',
+                instrument: 'Guitars and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass and vocals'
+            },
+            {
+                instrument: 'Drums and vocals',
+                name: 'Hans Jørgen',
+            }
+        ]
     }
-]
+];
