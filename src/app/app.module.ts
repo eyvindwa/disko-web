@@ -12,6 +12,7 @@ import { LiveComponent } from './live/live.component';
 import { ReleaseHeadingComponent } from './disco/release-heading/release-heading.component';
 import { ReleaseCarouselComponent } from './disco/release-carousel/release-carousel.component';
 import { ContactComponent } from './contact/contact.component';
+import { FrontCarouselComponent } from './front-carousel/front-carousel.component';
 
 const appRoutes: Routes = [
       {
@@ -50,7 +51,8 @@ const appRoutes: Routes = [
     LiveComponent,
     ReleaseHeadingComponent,
     ReleaseCarouselComponent,
-    ContactComponent
+    ContactComponent,
+    FrontCarouselComponent
   ],
   imports: [
     BrowserModule,

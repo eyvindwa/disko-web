@@ -1,8 +1,9 @@
-import {DiscoItem} from './disco-item';
+import { DiscoItem } from './disco-item';
 
 export const Discography: DiscoItem[] = [
     {
         title: 'Oscillations',
+        identifier: 'oscillations',
         versions: [
             {
                 label: 'Hellthrasher Productions',
@@ -43,7 +44,7 @@ export const Discography: DiscoItem[] = [
                 caption: 'Oscillations MC'
             }
         ],
-        quotes: [
+       quotes: [
             {
                 quote: 'The music itself is wild, insane, unpredictable and highly creative [...] For those of you who love old-school extreme metal, yet yearn for something different from the norm; this could well be for you.',
                 cite: 'Ave Noctum',
@@ -75,6 +76,80 @@ export const Discography: DiscoItem[] = [
                 instrument: 'Drums and vocals'
             }
 
+        ]
+    },
+    {
+        title: 'Dystopics',
+        identifier: 'dystopics',
+        versions: [
+            {
+                label: 'No Posers Please!',
+                year: 2012,
+                format: 'Digipak CD',
+                catalogNumber: 'NPP011'
+            },
+            {
+                label: 'No Posers Please!',
+                year: 2012,
+                format: 'Vinyl LP (yellow/black)',
+                catalogNumber: 'NPP011'
+            },
+            {
+                label: 'Escaravelho Records',
+                year: 2013,
+                format: 'Tape',
+                catalogNumber: 'Escaravelho08'
+            }
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/dystopics/sleeve_diskord_dystopics.jpg',
+                caption: 'Dystopics LP front cover, by Sindre Foss Skancke'
+            },
+            {
+                path: 'assets/img/releases/dystopics/sleeve_diskord_dystopics_lp_2.jpg',
+                caption: 'Dystopics LP'
+            },
+            {
+                path: 'assets/img/releases/dystopics/sleeve_diskord_dystopics_mc_with_merch.jpg',
+                caption: 'Dystopics MC with lighter goodie'
+            },
+            {
+                path: 'assets/img/releases/dystopics/sleeve_diskord_dystopics_mc_3.jpg',
+                caption: 'Dystopics MC with inlay'
+            }
+        ],
+        quotes: [
+            {
+                quote: 'Wonderfully avant-garde; utterly fantastic; remarkably',
+                cite: 'The Metal Advisor',
+            },
+            {
+                quote: 'As far from mainstream death metal as you could possibly get',
+                cite: 'Scream Magazine'
+            },
+            {
+                quote: 'Old school razor-wire riffs [...], wonderful, organic production aesthetics',
+                cite: 'Terrorizer Magazine'
+            },
+            {
+                quote: 'Dystopics is a clusterfuck of Gorguts-meets-Atheist rhythms and aggression done in an old-school-meets-new-school manner',
+                cite: 'No Clean Singing'
+            }
+        ],
+        lineup: [
+            {
+                name: 'Espen',
+                instrument: 'Guitars and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass and vocals'
+            },
+            {
+                instrument: 'Drums and vocals',
+                name: 'Hans Jørgen',
+            }
         ]
     }
 ]

@@ -1,5 +1,6 @@
 export interface DiscoItem {
     title: string;
+    identifier: string;
     versions:
     {
         label: string;

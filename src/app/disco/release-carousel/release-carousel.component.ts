@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { DiscoItem } from "app/disco/disco-item";
+import { DiscoItem } from 'app/disco/disco-item';
 
 @Component({
   selector: 'release-carousel',
@@ -9,7 +9,7 @@ import { DiscoItem } from "app/disco/disco-item";
 export class ReleaseCarouselComponent implements OnInit {
 
   @Input()
-  release: DiscoItem
+  release: DiscoItem;
 
   constructor() { }
 

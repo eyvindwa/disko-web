@@ -1,5 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FrontImages } from 'app/front-images';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 })
 export class AppComponent {
   title = 'app works!';
+  images = FrontImages;
 
   @ViewChild('navbarToggler') navbarToggler: ElementRef;
 
