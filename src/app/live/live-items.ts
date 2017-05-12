@@ -45,7 +45,7 @@ export const Past  = [
      { date: '30.06.2012', description: ' Italy, Milan @ Blue Rose Saloon w/ NECRO + GRINDZERO. '}
     ]},
 { date: '03.04.2012', description: ' DYSTOPICS RELEASE PARTY, at Unholy, Oslo. Ghoul Cult will be supporting us. '},
-{ date: '30.09-01.10.2011', description: ' Til Dovre Faller Festival, DombÃ¥s, Norway.'},
+{ date: '30.09-01.10.2011', description: ' Til Dovre Faller Festival, Dombås, Norway.'},
 { date: '01-03.09.2011', description: ' Kill-Town Death Fest, Copenhagen, Denmark.'},
 { date: '24-27.08.2011', description: ' Hole In The Sky Festival, Bergen, Norway. We will be playing on the Assault Stage at Garage on Saturday, with Vomitor and Nekromantheon.'},
 { date: '20-23.04.2011', description: ' The Inferno Festival, John Dee, Oslo. Check www.infernofestival.net for the full details.'},
@@ -53,7 +53,7 @@ export const Past  = [
 { date: '30.04.2010', description: ' Truckstop Alaska, Gothenburg, Sweden, Together with Obliteration and Karnarium.	'},
 { date: '24.04.2010', description: ' Oslo We Rot! Combined release party and gig together with Obliteration, Execration and Lobotomized.'},
 { date: '23.01.2010', description: ' Inferno Festival Kick Off @ Fru Lundgren, Trondheim. Together with Obliteration and Resonaut.'},
-{ date: '19.07.2008', description: ' Slottsfjell festival, TÃ¸nsberg, together with (amongst others) 1349, Blood Red Throne, De Lillos, Gogol Bordello and Kent. Check www.slottsfjellfestival.no for the full details.'},
+{ date: '19.07.2008', description: ' Slottsfjell festival, Tønsberg, together with (amongst others) 1349, Blood Red Throne, De Lillos, Gogol Bordello and Kent. Check www.slottsfjellfestival.no for the full details.'},
 { date: '18.04.2008', description: ' Oslo Death Fest, Club Maiden, Oslo, together with The Allseeing I, Deject and The Sickening.'},
 { date: '19.03.2008', description: ' The Inferno Festival, Rock In, Oslo. Check www.infernofestival.net for the full details.'},
 { date: '17.11.2007', description: ' Tribute, Sandnes, together with Abominat and Grotesque Hysterectomy.'},
