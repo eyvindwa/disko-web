@@ -44,7 +44,7 @@ export const Discography: DiscoItem[] = [
                 caption: 'Oscillations MC'
             }
         ],
-       quotes: [
+        quotes: [
             {
                 quote: 'The music itself is wild, insane, unpredictable and highly creative [...] For those of you who love old-school extreme metal, yet yearn for something different from the norm; this could well be for you.',
                 cite: 'Ave Noctum',
@@ -170,7 +170,7 @@ export const Discography: DiscoItem[] = [
             {
                 label: 'Snake Oil Kassettforlag / Unborn Productions',
                 year: 2017,
-                format: 'MC',
+                format: 'Tape',
                 catalogNumber: 'Cure07 / Coven016'
             }
         ],
@@ -188,11 +188,148 @@ export const Discography: DiscoItem[] = [
                 caption: 'Oslo We Rot tape release'
             }
         ],
-        quotes: [        ],
+        quotes: [],
         lineup: [
             {
                 name: 'Espen',
                 instrument: 'Guitars and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass and vocals'
+            },
+            {
+                instrument: 'Drums and vocals',
+                name: 'Hans Jørgen',
+            }
+        ]
+    },
+    /* **************************
+    DOOMSCAPES
+    *************************** */
+    {
+        title: 'Doomscapes',
+        identifier: 'Doomscapes',
+        versions: [
+            {
+                label: 'Edgerunner Music',
+                year: 2007,
+                format: 'CD',
+                catalogNumber: 'EDGE015CD'
+            },
+            {
+                label: 'Escaravelho Records',
+                year: 2010,
+                format: 'Tape',
+                catalogNumber: 'Escarav.MC01'
+            },
+            {
+                label: 'No Posers Please!',
+                year: 2013,
+                format: 'Vinyl LP (pink/black)',
+                catalogNumber: 'NPP013'
+            },
+            {
+                label: 'Hellthrasher Productions',
+                year: 2013,
+                format: '2CD (Aural Abjection bonus disc)',
+                catalogNumber: 'Hellthrasher XXIX'
+            }
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/doomscapes/doomscapes-cover-front.jpg',
+                caption: 'Doomscapes front cover, by Sindre Foss Skancke'
+            },
+            {
+                path: 'assets/img/releases/doomscapes/sleeve_diskord_doomscapes_tape.jpg',
+                caption: 'Doomscapes tape front cover'
+            },
+            {
+                path: 'assets/img/releases/doomscapes/sleeve_diskord_doomscapes_lp_2.jpg',
+                caption: 'Doomscapes vinyl LP'
+            },
+            {
+                path: 'assets/img/releases/doomscapes/doomscapes_auralabjection-small.jpg',
+                caption: 'Doomscapes/Aural Abjection 2CD rerelease'
+            }
+        ],
+        quotes: [
+            {
+                quote: 'This is a masterpiece and in time I suspect it to become an all time classic as well (9/10)',
+                cite: 'The Streets webzine (Norway)'
+            },
+            {
+                quote: 'Oh my twisted sister! This is one of the most original death metal albums I have listened to since 1990 I first discovered death metal! No, I am not joking at all! I find it hard to describe this fucking unique piece of death metal art!',
+                cite: 'Black Blood zine #4 (Greece)'
+            },
+            {
+                quote: 'The best death metal album of the year (8.5/10)',
+                cite: 'Metal-Norge webzine'
+            },
+            {
+                quote: 'Norway\'s uncrowned kings of death metal (5.5/6)',
+                cite: 'Eternal Terror webzine'
+            },
+            {
+                quote:
+
+                'The best pure death metal album to come out of Norway in more than a decade',
+                cite: 'Nocturnal Cult Webzine'
+            },
+            {
+                quote: 'An enormous, solitary realization (8.9/10)',
+                cite: 'Heavymetal.no'
+            },
+            {
+                quote: 'Norway\'s toughest (5/6)',
+                cite: 'Tønsbergs Blad'
+            },
+
+            {
+                quote: 'How outstanding and essential I found Diskord\'s unorthodox and deranged pseudo-death metal',
+                cite: 'Deadly Illness Zine #2'
+            },
+            {
+                quote:
+                '\'Doomscapes\' is a showcase of a band with power, creativity and attitude (8/10)',
+                cite: 'Beat the Blizzard'
+            },
+
+            {
+                quote: 'Very at ease whatever rhythms/tempos they play, be it doom parts à la Autopsy or blasting ones like Morbid Angel or putting a trapping break reminding of some ATHEIST tunes. Confusing but amazing stuff!',
+                cite: 'Putrefactive Effect Zine #3'
+            },
+
+            {
+                quote: 'They come up with some amazing riffs, sounding cool as hell (5/6)',
+                cite: 'Monster Magazine (Norway'
+            },
+            {
+                quote: 'Death metal with surprises, great hooks and twisted riffs (5/6)',
+                cite: 'Imhotep Magazine'
+            },
+            {
+                quote: 'Something new and creative that hopefully will give Norwegian death metal the credit it deserves (5/6)',
+                cite: 'Musiq'
+            },
+            {
+                quote: 'Avant-garde and technical death metal madness',
+                cite: 'Assault Zine'
+            },
+            {
+                quote: 'Diskord dominate and surpass in the mix between death metal from the old school and the need not to stagnate in old formulas (4/5)',
+                cite: 'Rockcore'
+            },
+            {
+                quote: 'I won\'t let the cat out of the bag, this is simply a CD that you must hear!!! Category: Highly recommended!!!',
+                cite: 'Shrunken & Mummified zine #9'
+            }
+        ],
+        lineup: [
+            {
+                name: 'Chris',
+                instrument: 'Guitar'
             },
             {
                 name: 'Eyvind',
