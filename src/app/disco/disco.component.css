@@ -1,0 +1,10 @@
+.disco-item { clear: left}
+
+.disco-thumb {
+    float:left; 
+    padding: 10px;
+}
+
+.disco-img-thumb {
+    max-width: 50px;
+}

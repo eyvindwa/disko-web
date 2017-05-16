@@ -1,12 +1,20 @@
 <h1>Discography</h1>
 
+<p>
 To order items from the discography directly from the band, check out our
 <a href="https://diskord.bandcamp.com" target="_blank">Bandcamp page</a> or <a routerLink="/contact">contact us</a>.
+</p>
 
-
+<div class="disco-thumb" *ngFor="let item of discography;  let i = index">
+  <a href="disco#{{item.title}}">
+  <img class="img-rounded disco-img-thumb" src="{{item.images[0].path}}">
+  <p>
+  {{item.title}}
+  </p></a>
+</div>
 
 <div class="disco-item" *ngFor="let item of discography;  let i = index">
-  <h3>{{item.title}}</h3>
+  <h3 id="{{item.title}}">{{item.title}}</h3>
   <release-heading [release]="item"></release-heading>
   <release-carousel [release]="item"></release-carousel>
 
