@@ -43,6 +43,14 @@ export const News = [
         caption: 'A Shadow Over Europe Tour 2016'
     },
     {
+        heading: 'Off to South Africa!',
+        innerHtml: `We're proud to announce that we are booked for WitchFest 2016, 
+        the biggest metal festival in South Africa (if not all of the continent!). 
+
+More details <a href="http://www.witchdoctorproductions.com/diskord-joins-the-witchfest-2016-line-up/">here</a>.`,
+        date: '2016-06-15'
+    },
+    {
         heading: 'Old news archive',
         innerHtml: `The old news from the previous web page have been archived <a href="assets/html/oldnews.html" target="_blank">here</a>`,
         date: '2016-05-05'
