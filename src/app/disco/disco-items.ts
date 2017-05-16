@@ -340,5 +340,45 @@ export const Discography: DiscoItem[] = [
                 name: 'Hans Jørgen',
             }
         ]
+    },
+    /* **************************
+    HDFH
+    *************************** */
+    {
+        title: 'HDFH',
+        identifier: 'HDFH',
+        versions: [
+            {
+                label: 'Vendlus Records / No Posers Please!',
+                year: 2010,
+                format: '7" EP',
+                catalogNumber: 'VEND013 / NPP001'
+            }
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/hdfh/hdfh-front-cover.jpg',
+                caption: 'HDFH front cover, by Sindre Foss Skancke'
+            },
+            {
+                path: 'assets/img/releases/hdfh/diskord_hdfh_7inch.jpg',
+                caption: 'HDFH vinyl EP'
+            },
+        ],
+        quotes: [],
+        lineup: [
+            {
+                name: 'Channar',
+                instrument: 'Guitars'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass and vocals'
+            },
+            {
+                instrument: 'Drums and vocals',
+                name: 'Hans Jørgen',
+            }
+        ]
     }
 ];
