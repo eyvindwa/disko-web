@@ -36,6 +36,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- fix issues with navigating to anchors - with a fixed header, the 
+         browser scrolls past the tag with the anchor id, which is not
+         typically what we want. Thus, this script -->
       <script>
         var shiftWindow = function() { scrollBy(0, -50) };
         window.addEventListener("hashchange", shiftWindow);

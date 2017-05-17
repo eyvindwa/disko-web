@@ -350,7 +350,7 @@ export const Discography: DiscoItem[] = [
         versions: [
             {
                 label: 'Vendlus Records / No Posers Please!',
-                year: 2010,
+                year: 2005,
                 format: '7" EP',
                 catalogNumber: 'VEND013 / NPP001'
             }
