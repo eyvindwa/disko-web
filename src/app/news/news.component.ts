@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 
 import { News } from './news-items';
@@ -8,12 +8,12 @@ import { News } from './news-items';
   templateUrl: './news.component.html',
   styleUrls: ['./news.component.css']
 })
-export class NewsComponent implements OnInit, OnDestroy {
+export class NewsComponent implements OnInit, OnDestroy, AfterViewInit {
   news = News;
   showAll = false;
   sub: any;
 
-  constructor(private router: Router) {
+  constructor(private router: Router) {   
   }
 
   ngOnInit() {
