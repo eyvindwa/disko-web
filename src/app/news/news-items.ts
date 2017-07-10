@@ -2,7 +2,7 @@ export const News = [
     {
         heading: '10 years of Doom!',
         text: 'This year, our debut album Doomscapes is 10 years old. It was released on CD the 1st of April 2007 by Edgerunner Records. Subsequent releases have brought the album to both vinyl and MC formats, and a recent CD rerelease was made available by our buddies in Hellthrasher. Check it online on our Bandcamp page (link in header).',
-        img: 'assets/img/Doomscapes10years.jpg',
+        img: 'assets/img/releases/doomscapes/Doomscapes10years.jpg',
         date: '2017-07-03'
     },
     {

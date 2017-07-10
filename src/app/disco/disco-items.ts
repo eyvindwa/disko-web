@@ -252,6 +252,10 @@ export const Discography: DiscoItem[] = [
             {
                 path: 'assets/img/releases/doomscapes/doomscapes_auralabjection-small.jpg',
                 caption: 'Doomscapes/Aural Abjection 2CD rerelease'
+            },
+            {
+                path: 'assets/img/releases/doomscapes/Doomscapes10years.jpg',
+                caption: 'Doomscapes 10 years 2007 - 2017'
             }
         ],
         quotes: [
