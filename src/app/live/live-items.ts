@@ -1,4 +1,6 @@
-export const Upcoming = [];
+export const Upcoming = [
+    { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo'}
+];
 
 export const Past  = [
     { date: '31.10.2016', description: ' Revolver, Oslo, Norway, with Angelcorpse (US) ' },
