@@ -3,7 +3,7 @@
 <h3>Upcoming gigs</h3>
 <div *ngIf="upcoming.length > 0">
   <ul>
-    <li *ngFor="let p of past">
+    <li *ngFor="let p of upcoming">
       {{p.date}}: {{p.description}}
       <div *ngIf="p.gigs?.length > 0">
         <ul>
