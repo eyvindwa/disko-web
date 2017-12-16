@@ -4,12 +4,11 @@
 <div *ngIf="upcoming.length > 0">
   <ul>
     <li *ngFor="let p of upcoming">
-      {{p.date}}: {{p.description}}
+      {{p.date}}: {{p.description}}<span *ngIf="p.link != undefined"> | <a href="{{p.link}}" target="_blank">event page</a></span>
       <div *ngIf="p.gigs?.length > 0">
         <ul>
           <li *ngFor="let g of p.gigs">
-            {{g.date}}: {{g.description}} 
-            <div *ngIf="g.link != undefined"> | <a href="{{g.link}}">Event page</a></div>
+            {{g.date}}: {{g.description}}<span *ngIf="g.link != undefined"> | <a href="{{g.link}}" target="_blank">event page</a></span>
           </li>
         </ul>
       </div>
@@ -23,10 +22,10 @@
 <h3>Past gigs</h3>
 <ul>
   <li *ngFor="let p of past">
-    {{p.date}}: {{p.description}}
+    {{p.date}}: {{p.description}}<span *ngIf="p.link != undefined"> | <a href="{{p.link}}" target="_blank">event page</a></span>
     <div *ngIf="p.gigs?.length > 0">
       <ul>
-        <li *ngFor="let g of p.gigs">
+        <li *ngFor="let g of p.gigs"><span *ngIf="p.link != undefined"> | <a href="{{p.link}}" target="_blank">event page</a></span> 
           {{g.date}}: {{g.description}}
         </li>
       </ul>
