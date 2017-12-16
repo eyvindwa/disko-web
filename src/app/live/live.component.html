@@ -9,7 +9,7 @@
         <ul>
           <li *ngFor="let g of p.gigs">
             {{g.date}}: {{g.description}} 
-            <div *ngif="g.link != undefined"> | <a href="{{g.link}}">Event page</a></div
+            <div *ngif="g.link != undefined"> | <a href="{{g.link}}">Event page</a></div>
           </li>
         </ul>
       </div>
