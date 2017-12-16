@@ -1,8 +1,9 @@
 export const Upcoming = [
-    { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo'}
+    { date: '27.01.2018', description: 'Sort Messe II: Diskord, Rise of the Phoenix, Black Sun Brotherhood, St Croix, Fredrikstad', link: 'https://www.facebook.com/events/384060712036635/'}
 ];
 
 export const Past  = [
+    { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo'},
     { date: '31.10.2016', description: ' Revolver, Oslo, Norway, with Angelcorpse (US) ' },
 { date: '07-08.10.2016', description: ' Old Grave Fest V, Bucuresti, Romania '},
 { date: 'June 2016', description : 'European tour with DHG',

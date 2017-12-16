@@ -8,7 +8,8 @@
       <div *ngIf="p.gigs?.length > 0">
         <ul>
           <li *ngFor="let g of p.gigs">
-            {{g.date}}: {{g.description}}
+            {{g.date}}: {{g.description}} 
+            <a *ngif="g.link != undefined" href="{{g.link}}">Event page</a>
           </li>
         </ul>
       </div>
