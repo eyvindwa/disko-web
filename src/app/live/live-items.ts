@@ -33,7 +33,7 @@ export const Past  = [
 { date: '01.03.2014,', description: 'Saturday, Revolver, Oslo, Norway, at the by:Larm festival.' },
 { date: '27.02.2014,', description: 'Thursday, John Dee, Oslo, Norway, at the by:Larm festival.' },
 { date: '01.11.2013,', description: 'Friday, Betong, Oslo, Norway. South of Heaven Club 10th Anniversary festival. Other acts include CORONER, KATECHON, NOCTURNAL BREED and DRAGGED INTO SUNLIGHT. ' },
-{ date: '30.03.2013,', description: 'Saturday, Inferno Metal Festival 2013, 22:15 at John Dee stage.' },
+{ date: '30.03.2013,', description: 'Saturday, Inferno Metal Festival 2013, 22:15 at John Dee stage', poster: 'assets/img/posters/Inferno festival 2013.jpeg' },
 { date: '30.11-08.12.2012', description: 'Death Fest 2012', poster: 'assets/img/posters/Death Fest 2012.jpg',
 gigs: [
     { date: '08.12.2012', description: 'Saturday, Revolver, Oslo, Norway, together with Grotesque Hysterectomy and Execration ' },
@@ -62,7 +62,7 @@ gigs: [
 { date: '23.01.2010', description: ' Inferno Festival Kick Off @ Fru Lundgren, Trondheim. Together with Obliteration and Resonaut.'},
 { date: '19.07.2008', description: ' Slottsfjell festival, Tønsberg, together with (amongst others) 1349, Blood Red Throne, De Lillos, Gogol Bordello and Kent. Check www.slottsfjellfestival.no for the full details.'},
 { date: '18.04.2008', description: ' Oslo Death Fest, Club Maiden, Oslo, together with The Allseeing I, Deject and The Sickening.'},
-{ date: '19.03.2008', description: ' The Inferno Festival, Rock In, Oslo. Check www.infernofestival.net for the full details.'},
+{ date: '19.03.2008', description: ' The Inferno Festival, Rock In, Oslo. Check www.infernofestival.net for the full details', poster: 'assets/img/posters/Inferno 2008.jpeg'},
 { date: '17.11.2007', description: ' Tribute, Sandnes, together with Abominat and Grotesque Hysterectomy.'},
 { date: '16.11.2007', description: ' På Hjørnet, Kristiansand, together with Abominat and Grotesque Hysterectomy.'},
 { date: '25.05.2007', description: ' Scene 37, Horten, together with She Said Destroy and Execration.'},
