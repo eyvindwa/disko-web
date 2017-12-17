@@ -1,12 +1,13 @@
 export const Upcoming = [
-    { date: '27.01.2018', description: 'Sort Messe II: Diskord, Rise of the Phoenix, Black Sun Brotherhood, St Croix, Fredrikstad', link: 'https://www.facebook.com/events/384060712036635/'}
+    { date: '27.01.2018', description: 'Sort Messe II: Diskord, Rise of the Phoenix, Black Sun Brotherhood, St Croix, Fredrikstad', 
+    link: 'https://www.facebook.com/events/384060712036635/', poster: 'assets/img/posters/Diskord Sort Messe II Fredrikstad.png'}
 ];
 
 export const Past  = [
-    { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo'},
+    { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo', poster: 'assets/img/posters/isle-of-you-600x337-2017.jpg'},
     { date: '31.10.2016', description: ' Revolver, Oslo, Norway, with Angelcorpse (US) ' },
-{ date: '07-08.10.2016', description: ' Old Grave Fest V, Bucuresti, Romania '},
-{ date: 'June 2016', description : 'European tour with DHG',
+{ date: '07-08.10.2016', description: ' Old Grave Fest V, Bucuresti, Romania', poster: 'assets/img/posters/Old-Grave-Fest-2016-Romania.jpg'},
+{ date: 'June 2016', description : 'European tour with DHG', poster: 'assets/img/posters/DHG_Diskord_tour_poster.jpg',
     gigs: [
     { date: '18.06.2016', description: ' Copenhagen, Denmark - Pumpehuset'},
     { date: '19.06.2016', description: ' Poznan, Poland - U Bazyla'},
@@ -17,8 +18,8 @@ export const Past  = [
     { date: '24.06.2016', description: ' Arnhem, The Netherlands - Willemeen'},
     { date: '25.06.2016', description: ' Oberhausen, Germany - Helvete'}
     ]},
-{ date: '25-27.03.2016', description: ' WitchFest, Johannesburg, South Africa.  '},
-{ date: '29.01.2016', description: ' Mono Goes Metal Festival, Århus, Denmark.  '},
+{ date: '25-27.03.2016', description: ' WitchFest, Johannesburg, South Africa', poster: 'assets/img/posters/Witchfest-2016.jpg'},
+{ date: '29.01.2016', description: ' Mono Goes Metal Festival, Århus, Denmark', poster: 'assets/img/posters/Mono Goes Metal 2016.jpg'},
 { date: '11.12.2015', description: ' Pokalen, Oslo, Norway, with Demilich and Gouge.'},
 { date: '20.06.2015', description: ' Saturday, Massive Destruction Fest Kickoff, Drammen, Norway. '},
 { date: '13.06.2015', description: ' Saturday,Sczcecin Extreme Fest, Szczecin, Poland.  '},
@@ -33,11 +34,14 @@ export const Past  = [
 { date: '27.02.2014,', description: 'Thursday, John Dee, Oslo, Norway, at the by:Larm festival.' },
 { date: '01.11.2013,', description: 'Friday, Betong, Oslo, Norway. South of Heaven Club 10th Anniversary festival. Other acts include CORONER, KATECHON, NOCTURNAL BREED and DRAGGED INTO SUNLIGHT. ' },
 { date: '30.03.2013,', description: 'Saturday, Inferno Metal Festival 2013, 22:15 at John Dee stage.' },
-{ date: '08.12.2012,', description: 'Saturday, Revolver, Oslo, Norway, together with Grotesque Hysterectomy and Execration ' },
-{ date: '01.12.2012,', description: 'Saturday, Seb\'s, Hamar, Norway, together with Grotesque Hysterectomy and Execration ' },
-{ date: '30.11.2012,', description: 'Friday, Fru Lundgreens, Trondheim, Norway together with Grotesque Hysterectomy and Execration ' },
+{ date: '30.11-08.12.2012', description: 'Death Fest 2012', poster: 'assets/img/posters/Death Fest 2012.jpg',
+gigs: [
+    { date: '08.12.2012', description: 'Saturday, Revolver, Oslo, Norway, together with Grotesque Hysterectomy and Execration ' },
+    { date: '01.12.2012', description: 'Saturday, Seb\'s, Hamar, Norway, together with Grotesque Hysterectomy and Execration ' },
+    { date: '30.11.2012', description: 'Friday, Fru Lundgreens, Trondheim, Norway together with Grotesque Hysterectomy and Execration ' }
+]},
 { date: '23-30.06.2012',
-    description: ' Dystopic Odes of Norway: Diskord and Execration European tour. Shows:',
+    description: ' Dystopic Odes of Norway: Diskord and Execration European tour', poster: 'assets/img/posters/Dystopic Odes of Norway 2012.png', 
     gigs: [
      { date: '22.06.2012', description: ' Italy, Bologna @ XM24 w/ NASUM + WORMROT. '},
      { date: '23.06.2012', description: ' Germany, Memmingen @ Schwarzer Adler "Mosh Against Southside IV" w/ FLESHCRAWL + ENDDARM. '},
