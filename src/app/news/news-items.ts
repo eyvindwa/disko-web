@@ -1,5 +1,12 @@
 export const News = [
     {
+        heading: 'Fredrikstad gig',
+        text: 'Our first ever gig in Fredrikstad will take place at St. Croix-huset, Saturday January 27th 2018. See you there!',
+        img: 'assets/img/posters/Diskord Sort Messe II Fredrikstad.png',
+        caption: 'Live at St. Croix-huset 2018-01-27',
+        date: '2017-12-17'
+    },
+    {
         heading: '10 years of Doom!',
         text: 'This year, our debut album Doomscapes is 10 years old. It was released on CD the 1st of April 2007 by Edgerunner Records. Subsequent releases have brought the album to both vinyl and MC formats, and a recent CD rerelease was made available by our buddies in Hellthrasher. Check it online on our Bandcamp page (link in header).',
         img: 'assets/img/releases/doomscapes/Doomscapes10years.jpg',
