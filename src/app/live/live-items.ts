@@ -5,7 +5,7 @@ export const Upcoming = [
 
 export const Past  = [
     { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo', poster: 'assets/img/posters/isle-of-you-600x337-2017.jpg'},
-    { date: '31.10.2016', description: ' Revolver, Oslo, Norway, with Angelcorpse (US) ' },
+    { date: '31.10.2016', description: ' Revolver, Oslo, Norway, with Angelcorpse (US)', poster: 'assets/img/posters/Angelcorpse Diskord Revolver 2016.png'},
 { date: '07-08.10.2016', description: ' Old Grave Fest V, Bucuresti, Romania', poster: 'assets/img/posters/Old-Grave-Fest-2016-Romania.jpg'},
 { date: 'June 2016', description : 'European tour with DHG', poster: 'assets/img/posters/DHG_Diskord_tour_poster.jpg',
     gigs: [
@@ -20,9 +20,9 @@ export const Past  = [
     ]},
 { date: '25-27.03.2016', description: ' WitchFest, Johannesburg, South Africa', poster: 'assets/img/posters/Witchfest-2016.jpg'},
 { date: '29.01.2016', description: ' Mono Goes Metal Festival, Århus, Denmark', poster: 'assets/img/posters/Mono Goes Metal 2016.jpg'},
-{ date: '11.12.2015', description: ' Pokalen, Oslo, Norway, with Demilich and Gouge.'},
+{ date: '11.12.2015', description: ' Pokalen, Oslo, Norway, with Demilich and Gouge.', poster: 'assets/img/posters/Demilich Diskord Gouge 2015.jpg'},
 { date: '20.06.2015', description: ' Saturday, Massive Destruction Fest Kickoff, Drammen, Norway. '},
-{ date: '13.06.2015', description: ' Saturday,Sczcecin Extreme Fest, Szczecin, Poland.  '},
+{ date: '13.06.2015', description: ' Saturday,Szczcecin Extreme Fest, Szczecin, Poland', poster: 'assets/img/posters/Szczecin Extreme Fest 2015.jpg'},
 { date: '11.06.2015', description: ' Thursday, Klub Ciemna Strona Miasta, Wroclav, Poland, together with Maze and Coherence. '},
 { date: '27.03.2015', description: ' Friday, G60, Drammen. '},
 { date: '27.11.2014', description: ' Thursday, Blitz, Oslo, together with Dysmorfic (it) and Higgs Boson (no). '},
