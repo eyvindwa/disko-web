@@ -5,3 +5,9 @@
 .btn:hover {
     color:white;
 }
+img {
+    max-height: 300px;
+    width: auto;
+    display: block;
+    max-width: 100%;
+}

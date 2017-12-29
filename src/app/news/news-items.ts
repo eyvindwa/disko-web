@@ -20,7 +20,7 @@ export const News = [
     },
     {
         heading: 'See you in Romania!',
-        img: 'https://dl.dropboxusercontent.com/u/3336834/webimg/Old%20Grave%20Fest%20V%202016%20final%20poster.jpg',
+        img: 'assets/img/posters/Old-Grave-Fest-2016-Romania.jpg',
         caption: 'Old Grave Fest Lineup 2016',
         text: 'We\'re playing the Old Grave Fest in Bucharest, Romania in October; see you there!',
         date: '2016-10-04',
