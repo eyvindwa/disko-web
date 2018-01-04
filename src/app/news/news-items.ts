@@ -1,5 +1,34 @@
 export const News = [
     {
+        heading: 'Oscillating Brain European Tour',
+        caption: 'Oscillating Brain European Tour 2018',
+        date: '2018-01-04',
+        innerHtml: `
+        <a href="http://www.lycanthropic-chants.de" target="_blank">Lycanthropic Chants</a> presents the “Oscillating Brain” tour that brings uncompromising and original death metal 
+        on a round trip through Europe in March 2018. The bands DISKORD (Norway) and <a href="http://www.crypticbrood.de" target="_blank">CRYPTIC BROOD</a> (Germany) promise to 
+        satisfy your ravaging death metal hunger, with music ranging from the very twisted and outlandish to pure lobotomy 
+        in putrid slime.
+        <br/>
+        <br/>        
+        The route looks as follows. There’s still one open date (Sunday, north of France). Feel free to contact us if you’re able to help.<br/>
+        <br/>
+        “Oscillating Brain” Tour:
+        <ul>
+        <li>2018.03.16, GER/Hamburg @Gängeviertel</li>
+        <li>2018.03.17, BEL/Chapelle-Lez-Herlaimont @Le Cercle</li>
+        <li>2018.03.18, FRA/north (need help!)</li>
+        <li>2018.03.19, FRA/Poitiers @Le Zinc</li>
+        <li>2018.03.20, BAQ/Donostia @Mogambo</li>
+        <li>2018.03.21, ESP/Zaragoza @AVV Arrebato</li>
+        <li>2018.03.22, FRA/Cavaillon @Iron Bar</li>
+        <li>2018.03.23, ITA/tba</li>
+        <li>2018.03.24, GER/Ulm @CAT</li>
+        </ul>
+        Poster art by RK Valbo (Obliteration, Spectral Haze, Void Eater).
+        <br/>&nbsp;`,
+        img: 'assets/img/posters/Oscillating-Brain-Tour-2018.jpg'
+    },
+    {
         heading: 'Fredrikstad gig',
         text: 'Our first ever gig in Fredrikstad will take place at St. Croix-huset, Saturday January 27th 2018. See you there!',
         img: 'assets/img/posters/Diskord Sort Messe II Fredrikstad.png',
