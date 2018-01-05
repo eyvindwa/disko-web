@@ -23,14 +23,14 @@ export const Past  = [
 { date: '07-08.10.2016', description: ' Old Grave Fest V, Bucuresti, Romania', poster: 'assets/img/posters/Old-Grave-Fest-2016-Romania.jpg'},
 { date: 'June 2016', description : 'European tour with DHG', poster: 'assets/img/posters/DHG_Diskord_tour_poster.jpg',
     gigs: [
-    { date: '18.06.2016', description: ' Copenhagen, Denmark - Pumpehuset'},
-    { date: '19.06.2016', description: ' Poznan, Poland - U Bazyla'},
-    { date: '20.06.2016', description: ' Erfurt, Gemany - From Hell Club'},
-    { date: '21.06.2016', description: ' Vienna, Austria - Viper Room'},
-    { date: '22.06.2016', description: ' Antwerpen, Belgium - Kavka'},
-    { date: '23.06.2016', description: ' Lille, France - El Diablo Club'},
-    { date: '24.06.2016', description: ' Arnhem, The Netherlands - Willemeen'},
-    { date: '25.06.2016', description: ' Oberhausen, Germany - Helvete'}
+        { date: '25.06.2016', description: ' Oberhausen, Germany - Helvete'},
+        { date: '24.06.2016', description: ' Arnhem, The Netherlands - Willemeen'},
+        { date: '23.06.2016', description: ' Lille, France - El Diablo Club'},
+        { date: '22.06.2016', description: ' Antwerpen, Belgium - Kavka'},
+        { date: '21.06.2016', description: ' Vienna, Austria - Viper Room'},
+        { date: '20.06.2016', description: ' Erfurt, Gemany - From Hell Club'},
+        { date: '19.06.2016', description: ' Poznan, Poland - U Bazyla'},
+        { date: '18.06.2016', description: ' Copenhagen, Denmark - Pumpehuset'}
     ]},
 { date: '25-27.03.2016', description: ' WitchFest, Johannesburg, South Africa', poster: 'assets/img/posters/Witchfest-2016.jpg'},
 { date: '29.01.2016', description: ' Mono Goes Metal Festival, Århus, Denmark', poster: 'assets/img/posters/Mono Goes Metal 2016.jpg'},
