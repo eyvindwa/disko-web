@@ -8,6 +8,10 @@ export const FrontImages = [
         caption: 'Old Grave Fest, Bucharest, 2016'
     },
     {
+        url: 'assets/img/live-stcroix-fredrikstad-2018.jpg',
+        caption: 'Sort Messe II, St. Croix Fredrikstad, 2018'
+    },
+    {
         url: 'assets/img/old-grave-crowd-bucharest-2016.jpg',
         caption: 'Crowd at Old Grave Fest, Bucharest, 2016'
     },
