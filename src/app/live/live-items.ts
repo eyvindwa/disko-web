@@ -2,22 +2,22 @@ export const Upcoming = [
     { date: 'March 2018', description: 'Oscillating Brain European Tour with Cryptic Brood',
         poster: 'assets/img/posters/Oscillating-Brain-Tour-2018.jpg',
         gigs: [
-            { date: '24.03.2018', description: 'Ulm, Germany - CAT'},
-            { date: '23.03.2018', description: 'Italy, Milan - Blue Rose Saloon'},
-            { date: '22.03.2018', description: 'France,Cavaillon - Iron Bar'},
-            { date: '21.03.2018', description: 'Spain, Zaragoza - AVV Arrebato'},
-            { date: '20.03.2018', description: 'Basque Country, Donostia - Mogambo'},
-            { date: '19.03.2018', description: 'France, Poitiers - Le Zinc'},
-            { date: '18.03.2018', description: 'France, North - TBA (need help)'},
-            { date: '17.03.2018', description: 'Belgium, Chapelle-Lez-Herlaimont - Le Cercle'},
             { date: '16.03.2018', description: 'Germany, Hamburg - Gängeviertel'},
+            { date: '17.03.2018', description: 'Belgium, Chapelle-Lez-Herlaimont - Le Cercle'},
+            { date: '18.03.2018', description: 'Belgium, Overpelt - Café ‘t Linne'},
+            { date: '19.03.2018', description: 'France, Poitiers - Le Zinc'},
+            { date: '20.03.2018', description: 'Basque Country, Donostia - Mogambo'},
+            { date: '21.03.2018', description: 'Spain, Zaragoza - AVV Arrebato'},
+            { date: '22.03.2018', description: 'France,Cavaillon - Iron Bar'},
+            { date: '23.03.2018', description: 'Italy, Milan - Blue Rose Saloon'},
+            { date: '24.03.2018', description: 'Ulm, Germany - CAT'}
         ]
-    },
-    { date: '27.01.2018', description: 'Sort Messe II: Diskord, Rise of the Phoenix, Black Sun Brotherhood, St Croix, Fredrikstad', 
-    link: 'https://www.facebook.com/events/384060712036635/', poster: 'assets/img/posters/Diskord Sort Messe II Fredrikstad.png'}
+    }
 ];
 
 export const Past  = [
+    { date: '27.01.2018', description: 'Sort Messe II: Diskord, Rise of the Phoenix, Black Sun Brotherhood, St Croix, Fredrikstad', 
+    link: 'https://www.facebook.com/events/384060712036635/', poster: 'assets/img/posters/Diskord Sort Messe II Fredrikstad.png'},
     { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo', poster: 'assets/img/posters/isle-of-you-600x337-2017.jpg'},
     { date: '31.10.2016', description: ' Revolver, Oslo, Norway, with Angelcorpse (US)', poster: 'assets/img/posters/Angelcorpse Diskord Revolver 2016.png'},
 { date: '07-08.10.2016', description: ' Old Grave Fest V, Bucuresti, Romania', poster: 'assets/img/posters/Old-Grave-Fest-2016-Romania.jpg'},
