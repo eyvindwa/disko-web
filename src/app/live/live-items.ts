@@ -1,23 +1,29 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
-    { date: 'March 2018', description: 'Oscillating Brain European Tour with Cryptic Brood',
-        poster: 'assets/img/posters/Oscillating-Brain-Tour-Final-Poster-2018.jpg',
+    { date: 'September 2018', description: 'England calling', 
         gigs: [
-            { date: '16.03.2018', description: 'Germany, Hamburg - Gängeviertel', link: 'https://www.facebook.com/events/2252239344802053/'},
-            { date: '17.03.2018', description: 'Belgium, Chapelle-Lez-Herlaimont - Le Cercle', link: 'https://www.facebook.com/events/1022054564629427/'},
-            { date: '18.03.2018', description: 'Belgium, Overpelt - Café ‘t Linne', link: 'https://www.facebook.com/events/227808674446727/'},
-            { date: '19.03.2018', description: 'France, Poitiers - Le Zinc', link: 'https://www.facebook.com/events/155715458418072/'},
-            { date: '20.03.2018', description: 'Basque Country, Donostia - Mogambo', link: 'https://www.facebook.com/events/154549548688953/'},
-            { date: '21.03.2018', description: 'Spain, Zaragoza - AVV Arrebato', link: 'https://www.facebook.com/events/211064109466430/'},
-            { date: '22.03.2018', description: 'France,Cavaillon - Iron Bar', link: 'https://www.facebook.com/events/535111693525644/'},
-            { date: '23.03.2018', description: 'Italy, Milan - Blue Rose Saloon', link: 'https://www.facebook.com/events/1850878068317111/'},
-            { date: '24.03.2018', description: 'Ulm, Germany - CAT', link: 'https://www.facebook.com/events/2007273889523692/'}
+            { date: '01.09.2018', description: 'Leeds, TBA' },
+            { date: '02.09.2018', description: 'London, TBA' },
         ]
     }
 ];
 
 export const Past  = [
+    { date: 'March 2018', description: 'Oscillating Brain European Tour with Cryptic Brood',
+        poster: 'assets/img/posters/Oscillating-Brain-Tour-Final-Poster-2018.jpg',
+        gigs: [
+            { date: '24.03.2018', description: 'Ulm, Germany - CAT', link: 'https://www.facebook.com/events/2007273889523692/'},
+            { date: '23.03.2018', description: 'Italy, Milan - Blue Rose Saloon', link: 'https://www.facebook.com/events/1850878068317111/'},
+            { date: '22.03.2018', description: 'France,Cavaillon - Iron Bar', link: 'https://www.facebook.com/events/535111693525644/'},
+            { date: '21.03.2018', description: 'Spain, Zaragoza - AVV Arrebato', link: 'https://www.facebook.com/events/211064109466430/'},
+            { date: '20.03.2018', description: 'Basque Country, Donostia - Mogambo', link: 'https://www.facebook.com/events/154549548688953/'},
+            { date: '19.03.2018', description: 'France, Poitiers - Le Zinc', link: 'https://www.facebook.com/events/155715458418072/'},
+            { date: '18.03.2018', description: 'Belgium, Overpelt - Café ‘t Linne', link: 'https://www.facebook.com/events/227808674446727/'},
+            { date: '17.03.2018', description: 'Belgium, Chapelle-Lez-Herlaimont - Le Cercle', link: 'https://www.facebook.com/events/1022054564629427/'},
+            { date: '16.03.2018', description: 'Germany, Hamburg - Gängeviertel', link: 'https://www.facebook.com/events/2252239344802053/'},
+        ]
+    },
     { date: '27.01.2018', description: 'Sort Messe II: Diskord, Rise of the Phoenix, Black Sun Brotherhood, St Croix, Fredrikstad', 
     link: 'https://www.facebook.com/events/384060712036635/', poster: 'assets/img/posters/Diskord Sort Messe II Fredrikstad.png'},
     { date: '14.10.2017', description: 'Isle of You Festival, Mir, Oslo', poster: 'assets/img/posters/isle-of-you-600x337-2017.jpg'},

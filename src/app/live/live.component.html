@@ -32,9 +32,9 @@
     <div *ngIf="p.gigs?.length > 0">
       <ul>
         <li *ngFor="let g of p.gigs">
-          <span *ngIf="g.link != undefined"> | <a href="{{g.link}}" target="_blank">event page</a></span> 
-          <span *ngIf="g.poster != undefined"> | <a href="{{g.poster}}" target="_blank">poster</a></span>
           {{g.date}}: {{g.description}}
+          <span *ngIf="g.link != undefined"> | <a href="{{g.link}}" target="_blank">event page</a></span>  
+          <span *ngIf="g.poster != undefined"> | <a href="{{g.poster}}" target="_blank">poster</a></span>
         </li>
       </ul>
     </div>
