@@ -1,7 +1,7 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
-    { date: 'September 2018', description: 'England calling', 
+    { date: 'September 2018', description: 'Hail to England', 
         gigs: [
             { date: '01.09.2018', description: 'Leeds, TBA' },
             { date: '02.09.2018', description: 'London, TBA' },
