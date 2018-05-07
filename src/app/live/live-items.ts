@@ -1,10 +1,16 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
-    { date: 'September 2018', description: 'Hail to England', 
+    { date: 'September 2018', description: 'Hail to England',
         gigs: [
             { date: '01.09.2018', description: 'Leeds, TBA' },
             { date: '02.09.2018', description: 'London, TBA' },
+        ]
+    },
+    { date: 'October 2018', description: 'Japan!',
+        gigs: [
+            { date: '25.10.2018', description: 'TBA' },
+            { date: '27.10.2018', description: 'Asakusa Deathfest, Tokyo, Japan', poster: 'assets/img/posters/Asakusa-Deathfest-2018.jpg' },
         ]
     }
 ];

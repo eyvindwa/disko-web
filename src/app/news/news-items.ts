@@ -1,5 +1,21 @@
 export const News = [
     {
+        heading: 'Asakusa Deathfest, Japan',
+        innerHtml: `<p>In the words of the organizers: <b>DISKORD x Asakusa Deathfest 2018</b></p>
+        
+        <p>Their dissonant and extremly unique sounds reminiscent of Old-School Technical/Progressive Death Metal band like DEMILICH, late GORGUTS.
+        And they would also has more Thrash Metal style aggressive drums and more edgy riffs then also killer bass grooves remind of same Norweigian madness CADAVER.
+        You cannot miss their uniqueness attack at ASAKUSA DEATHFEST 2018!</p>
+        
+        <p>1999年結成のノルウェーはオスロを拠点とする3ピースのアヴァンギャルド・デスメタル。
+        その複雑奇怪で不協和音がうごめくサウンドはオールドスクールデスメタルのDEMILICHや後期GORGUTSを彷彿とさせる。
+        更に言えばスラッシュメタルの影響下にある豪快なドラムとキレのあるリフ、そしてうねるベースは同郷のCADAVERという狂えるバンドを思い浮かべるだろう。
+        独特なスタイルをぶつけてくる彼らのライヴをASAKUSA DEATHFEST 2018で観逃すな！</p>`,
+        img: 'assets/img/posters/Asakusa-Deathfest-2018.jpg',
+        caption: 'Asakusa Deathfest 2018',
+        date: '2018-05-02'
+    },
+    {
         heading: 'Oscillating Brain European Tour',
         caption: 'Oscillating Brain European Tour 2018',
         date: '2018-02-25',
