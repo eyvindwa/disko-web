@@ -1,5 +1,15 @@
 export const News = [
     {
+        heading: 'Album recording',
+        text: `We have commenced the recording of our as of yet untitled 
+        upcoming full-length album; we have recorded drums for 12 tracks
+        in Taakeheimen Lydrike, and continue with bass/guitar/vocals and
+        other instruments during the winter.`,
+        img: 'assets/img/drum-recording-taakeheimen-2019-12-08.jpg',
+        caption: 'HJ behind his kit at Taakeheimen',
+        date: '2019-12-12'
+    },
+    {
         heading: 'Asakusa Deathfest, Japan',
         innerHtml: `<p>In the words of the organizers: <b>DISKORD x Asakusa Deathfest 2018</b></p>
         
