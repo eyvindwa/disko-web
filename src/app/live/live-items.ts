@@ -21,7 +21,7 @@ export const Past = [
             {
                 date: '27.10.2018',
                 description: 'Asakusa Deathfest, Tokyo, Japan',
-                poster: 'assets/img/posters/Asakusa-Deathfest-2018.jpg',
+                poster: 'assets/img/posters/Asakusa-Deathfest-2018-full-poster.jpg',
                 link: 'https://www.facebook.com/AsakusaDeathfest/'
             },
         ]
