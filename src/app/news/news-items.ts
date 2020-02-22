@@ -1,5 +1,14 @@
 export const News = [
     {
+        heading: 'Hammer Smashed Fest II',
+        text: `For the first time in history, Diskord will be appearing
+        in Portugal, in the city of Lisbon. We will be playing the Hammer
+        Smashed Fest vol II on December 5th 2020.`,
+        img: 'assets/img/posters/Hammer-Smashed-Fest-II-2020-horizontal.jpg',
+        caption: 'Hammer Smashed Fest II',
+        date: '2020-02-22'
+    },
+    {
         heading: 'Album recording',
         text: `We have commenced the recording of our as of yet untitled 
         upcoming full-length album; we have recorded drums for 12 tracks

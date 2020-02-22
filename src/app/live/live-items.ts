@@ -1,6 +1,11 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
+    {
+        date: '05.12.2020', 
+        description: 'Hammer Smashed Fest II, Lisbon', 
+        poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2020-vertical.jpg' 
+    }
 ];
 
 export const Past = [
