@@ -13,6 +13,8 @@ import { ReleaseHeadingComponent } from './disco/release-heading/release-heading
 import { ReleaseCarouselComponent } from './disco/release-carousel/release-carousel.component';
 import { ContactComponent } from './contact/contact.component';
 import { FrontCarouselComponent } from './front-carousel/front-carousel.component';
+import { VideosComponent } from './videos/videos.component';
+import { SafePipe } from './safe.pipe';
 
 const appRoutes: Routes = [
       {
@@ -26,6 +28,10 @@ const appRoutes: Routes = [
       {
         path: 'disco',
         component: DiscoComponent
+      },
+      {
+        path: 'videos',
+        component: VideosComponent
       },
       {
         path: 'live',
@@ -52,7 +58,9 @@ const appRoutes: Routes = [
     ReleaseHeadingComponent,
     ReleaseCarouselComponent,
     ContactComponent,
-    FrontCarouselComponent
+    FrontCarouselComponent,
+    VideosComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

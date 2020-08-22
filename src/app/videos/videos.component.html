@@ -1,0 +1,17 @@
+<h1>Video Clips</h1>
+Music videos by the band, and videos from selected live performances.
+<div *ngFor="let v of videos">
+  <hr>
+  <h3>{{v.heading}}</h3>
+  <p>{{v.description}}</p>
+  <div class="video-container">
+  <iframe 
+    width="560" height="315"
+    [src]="v.link | safe:'resourceUrl'" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+
+  </iframe>
+</div>
+</div>
