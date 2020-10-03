@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Discography} from './disco-items';
+import {Official, Demos, Compilations} from './disco-items';
 
 @Component({
   selector: 'app-disco',
@@ -8,7 +8,10 @@ import {Discography} from './disco-items';
 })
 export class DiscoComponent implements OnInit {
 
-  discography = Discography;
+  official = Official;
+  demos = Demos;
+  compilations = Compilations;
+  completeDisco = this.official.concat(this.demos).concat(this.compilations);
 
   constructor() { }
 

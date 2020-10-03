@@ -1,6 +1,6 @@
 import { DiscoItem } from './disco-item';
 
-export const Discography: DiscoItem[] = [
+export const Official: DiscoItem[] = [
     {
         title: 'Oscillations',
         identifier: 'oscillations',
@@ -139,56 +139,6 @@ export const Discography: DiscoItem[] = [
                 cite: 'No Clean Singing'
             }
         ],
-        lineup: [
-            {
-                name: 'Espen',
-                instrument: 'Guitars and vocals'
-            },
-            {
-                name: 'Eyvind',
-                instrument: 'Bass and vocals'
-            },
-            {
-                instrument: 'Drums and vocals',
-                name: 'Hans Jørgen',
-            }
-        ]
-    },
-    /* **************************
-    OSLO WE ROT
-    *************************** */
-    {
-        title: 'Oslo We Rot',
-        identifier: 'OsloWeRot',
-        versions: [
-            {
-                label: 'Unborn Productions',
-                year: 2010,
-                format: '2x Split 7"',
-                catalogNumber: 'COVEN001'
-            },
-            {
-                label: 'Snake Oil Kassettforlag / Unborn Productions',
-                year: 2017,
-                format: 'Tape',
-                catalogNumber: 'Cure07 / Coven016'
-            }
-        ],
-        images: [
-            {
-                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot-front-cover.jpg',
-                caption: 'Oslo We Rot front cover, by Kristian Valbo'
-            },
-            {
-                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot-collage.jpg',
-                caption: 'Oslo We Rot split vinyl collage'
-            },
-            {
-                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot_tape.jpg',
-                caption: 'Oslo We Rot tape release'
-            }
-        ],
-        quotes: [],
         lineup: [
             {
                 name: 'Espen',
@@ -385,4 +335,127 @@ export const Discography: DiscoItem[] = [
             }
         ]
     }
+];
+
+export const Demos: DiscoItem[] = [
+    {
+        title: 'Aural Abjection',
+        identifier: 'aural-abjection',
+        versions: [
+            {
+                label: 'Self-released',
+                year: 2003,
+                format: 'CD-R',
+                catalogNumber: ''
+            }
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/aural-abjection/aural-abjection-front-cover.jpg',
+                caption: 'Aural Abjection front cover, by Ola Sverre Bauge'
+            }
+        ],
+        quotes: [ ],
+        lineup: [
+            {
+                name: 'Channard',
+                instrument: 'Guitar'
+            },
+            {
+                name: 'Hans Jørgen',
+                instrument: 'Drums and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass guitar and vocals'
+            }
+        ]
+    },
+    {
+        title: 'Demo 2001',
+        identifier: 'demo-2001',
+        versions: [
+            {
+                label: 'Self-released',
+                year: 2001,
+                format: 'CD-R',
+                catalogNumber: ''
+            }
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/demo-2001/demo-2001-front-cover.jpg',
+                caption: 'Demo 2001 front cover, by Ola Sverre Bauge'
+            }
+        ],
+        quotes: [ ],
+        lineup: [
+            {
+                name: 'Channard',
+                instrument: 'Guitar and vocals'
+            },
+            {
+                name: 'Hans Jørgen',
+                instrument: 'Drums and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass guitar'
+            }
+        ]
+    }
+];
+
+
+export const Compilations: DiscoItem[] = [
+    /* **************************
+    OSLO WE ROT
+    *************************** */
+    {
+        title: 'Oslo We Rot',
+        identifier: 'OsloWeRot',
+        versions: [
+            {
+                label: 'Unborn Productions',
+                year: 2010,
+                format: '2x Split 7"',
+                catalogNumber: 'COVEN001'
+            },
+            {
+                label: 'Snake Oil Kassettforlag / Unborn Productions',
+                year: 2017,
+                format: 'Tape',
+                catalogNumber: 'Cure07 / Coven016'
+            }
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot-front-cover.jpg',
+                caption: 'Oslo We Rot front cover, by Kristian Valbo'
+            },
+            {
+                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot-collage.jpg',
+                caption: 'Oslo We Rot split vinyl collage'
+            },
+            {
+                path: 'assets/img/releases/oslo-we-rot/Oslo_We_Rot_tape.jpg',
+                caption: 'Oslo We Rot tape release'
+            }
+        ],
+        quotes: [],
+        lineup: [
+            {
+                name: 'Espen',
+                instrument: 'Guitars and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass and vocals'
+            },
+            {
+                instrument: 'Drums and vocals',
+                name: 'Hans Jørgen',
+            }
+        ]
+    },
 ];
