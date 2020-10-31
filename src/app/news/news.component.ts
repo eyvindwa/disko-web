@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject, OnDestroy, AfterViewInit, Renderer2 } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
-import { DOCUMENT } from '@angular/platform-browser';
+import { DOCUMENT } from "@angular/common";
 
 
 import { News } from './news-items';
