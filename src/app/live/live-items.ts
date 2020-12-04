@@ -2,7 +2,7 @@
 
 export const Upcoming = [
     {
-        date: '05.12.2020',
+        date: 'POSTPONED! New date: 04.12.2021',
         description: 'Hammer Smashed Fest II, Lisbon',
         poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2020-vertical.jpg'
     }

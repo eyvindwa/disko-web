@@ -1,5 +1,35 @@
 export const News = [
     {
+        heading: 'Diskord sign to Transcending Obscurity for new LP',
+        innerHtml: `<p>We’re thrilled to announce our signing with 
+            <a href="https://tometal.com">Transcending Obscurity</a> 
+            for our upcoming full-length album Degenerations, as well as a second 
+            release after that. Degenerations will be our third LP following 
+            the critically acclaimed releases Doomscapes (2007) and Dystopics (2012), 
+            as well as the 2014 MLP Oscillations.</p>
+            
+            <p>Track List:<br>
+            Side A:<br>
+            01 – Loitering in the Portal<br>
+            02 – Bionic Tomb Eternal<br>
+            03 – Abnegations<br>
+            04 – The Endless Spiral<br>
+            05 – Dirigiste Radio Hit<br>
+            06 – Lone Survivor<br>
+            <br>
+            Side B:<br>
+            07 – Dragged for Coronation<br>
+            08 – Clawing at the Fabric of Space<br>
+            09 – Atoms Decay<br>
+            10 – Raging Berzerker in the Universe Rigid<br>
+            11 – Gnashing<br>
+            12 – Beyond the Grime<br>`,
+        img: 'assets/img/diskord_degenerations_cover-preview.jpg',
+        caption: 'Diskord - Degenerations',
+        date: '2020-12-04'
+    },
+
+    {
         heading: 'Hammer Smashed Fest II',
         text: `For the first time in history, Diskord will be appearing
         in Portugal, in the city of Lisbon. We will be playing the Hammer
