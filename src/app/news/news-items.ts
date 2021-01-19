@@ -1,5 +1,13 @@
 export const News = [
     {
+        heading: 'New song premiere',
+        innerHtml: `
+        The song Abnegations from our upcoming LP DEGENERATIONS on Transcending
+        Obscurity Records has premiered over at TO's BandCamp; check it out here:<br/><br/>
+        <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=247833992/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/track=2575811207/transparent=true/" seamless><a href="https://transcendingobscurity.bandcamp.com/album/2021-label-sampler">2021 Label Sampler by Transcending Obscurity Records</a></iframe>`,
+        date: '2021-01-18'
+    },
+    {
         heading: 'Diskord sign to Transcending Obscurity for new LP',
         innerHtml: `<p>We’re thrilled to announce our signing with 
             <a href="https://tometal.com">Transcending Obscurity</a> 

@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject, OnDestroy, AfterViewInit, Renderer2 } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { DOCUMENT } from "@angular/common";
+import {DomSanitizer} from '@angular/platform-browser';
 
 
 import { News } from './news-items';
@@ -11,10 +12,23 @@ import { News } from './news-items';
   styleUrls: ['./news.component.css']
 })
 export class NewsComponent implements OnInit {
-  news = News;
+  news = News.map(
+    n => ({
+      caption: n.caption,
+      heading: n.heading,
+      date: n.date,
+      img: n.img,
+      innerHtml: this.sanitizer.bypassSecurityTrustHtml(n.innerHtml),
+      text: n.text
+    })
+  );
   showAll = false;
 
-  constructor(private router: Router, private renderer2: Renderer2, @Inject(DOCUMENT) private document) {
+  constructor(
+    private router: Router, 
+    private renderer2: Renderer2, 
+    @Inject(DOCUMENT) private document,
+    private sanitizer: DomSanitizer) {
   }
 
   ngOnInit() {
