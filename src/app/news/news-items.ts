@@ -1,5 +1,17 @@
 export const News = [
     {
+        heading: 'DEGENERATIONS up for preorder now!',
+        innerHtml: `<p>Pre-orders for our much anticipated new full 
+            length album <i>Degenerations</i> are up now via Transcending Obscurity Records! 
+            LPs and box sets are limited, so get in on this sooner rather than later!
+            <br/><br/>
+            Order <a href="https://diskordband.bandcamp.com" target="_blank">HERE</a> from BandCamp.</p>
+            `,
+        img: 'assets/img/releases/degenerations/degenerations-products.jpeg',
+        caption: 'Diskord - Degenerations variants',
+        date: '2021-05-08'
+    },
+    {
         heading: 'New song premiere',
         innerHtml: `
         The song Abnegations from our upcoming LP DEGENERATIONS on Transcending
