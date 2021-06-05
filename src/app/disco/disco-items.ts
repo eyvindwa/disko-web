@@ -2,6 +2,73 @@ import { DiscoItem } from './disco-item';
 
 export const Official: DiscoItem[] = [
     {
+        title: 'Degenerations',
+        identifier: 'degenerations',
+        versions: [
+            {
+                label: 'Transcending Obscurity Records',
+                year: 2021,
+                format: 'Ltd LP box',
+                catalogNumber: 'TOR119'
+            },
+            {
+                label: 'Transcending Obscurity Records',
+                year: 2021,
+                format: 'Vinyl LP',
+                catalogNumber: 'TOR119'
+            },
+            {
+                label: 'Transcending Obscurity Records',
+                year: 2021,
+                format: 'Ltd CD box',
+                catalogNumber: 'TOR119'
+            },
+            {
+                label: 'Transcending Obscurity Records',
+                year: 2021,
+                format: 'Digipak CD',
+                catalogNumber: 'TOR119'
+            },
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/degenerations/degenerations-front-cover.jpg',
+                caption: 'Degenerations LP front cover, by Sindre Foss Skancke'
+            },
+            {
+                path: 'assets/img/releases/degenerations/degenerations-products.jpeg',
+                caption: 'Degenerations product selection'
+            },
+            {
+                path: 'assets/img/releases/degenerations/degenerations-lp-box.jpg',
+                caption: 'Degenerations lp box'
+            },
+        ],
+        quotes: [
+            {
+                quote: 'Degenerations is their strongest work yet and definitely their strangest [...] It’s simultaneously far, far out there but grounded in the same vileness and perversity that carried death metal since its infancy, but where others choose cheap grooves and dialed in chunkage, Diskord bristles with an alien deliberation; you take it as it is with all of its constant change-ups and ambiguities or you leave before being devoured by the fleshy, festering cyclone.',
+                cite: 'Toilet ov Hell',
+            }
+        ],
+        lineup: [
+            {
+                name: 'Dmitry',
+                instrument: 'Guitar and vocals'
+            },
+            {
+                name: 'Hans Jørgen',
+                instrument: 'Drums and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass guitar, electric upright bass, cello, synth, theremin and vocals'
+            }
+        ]
+    },
+    /* **************************
+    OSCILLATIONS
+    *************************** */
+    {
         title: 'Oscillations',
         identifier: 'oscillations',
         versions: [
