@@ -1,5 +1,27 @@
 export const News = [
     {
+        heading: 'DEGENERATIONS release August 13th!',
+        innerHtml: `<p>Our third full 
+            length album <i>Degenerations</i> is out <i>today</i> via Transcending Obscurity Records! 
+            Check it out on all relevant streaming platforms,
+            <br/><br/>
+            Order <a href="https://diskordband.bandcamp.com" target="_blank">HERE</a> from BandCamp.</p>
+            <p>Some selected quotes:</p>
+            <ul>
+            <li>"Their finest hour yet" - Metal Injection (US)</li>
+            <li>"A virtually perfect death metal album" - Grizzly Butts (US)</li>
+            <li>"If you want something genuinely weird, heavy, and adventurous, this is a must listen" - Dargedik (Peru) 10/10</li>
+            <li>"The band has gotten stranger and twistier… and catchier. I really don’t know how they do it" - Stereogum (US)</li>
+            <li>"I don’t think we’ll see anything of this ilk of this caliber for several years" - Head Banger Reviews (US)</li>
+            <li>"Degenerations is their strongest work yet and definitely their strangest" - Toilet ov hell (US)</li>
+            
+            </ul>
+            `,
+        img: 'assets/img/releases/degenerations/degenerations-front-cover.jpg',
+        caption: 'Diskord - Degenerations variants',
+        date: '2021-08-13'
+    },
+    {
         heading: 'DEGENERATIONS up for preorder now!',
         innerHtml: `<p>Pre-orders for our much anticipated new full 
             length album <i>Degenerations</i> are up now via Transcending Obscurity Records! 
