@@ -9,25 +9,25 @@ export const Official: DiscoItem[] = [
                 label: 'Transcending Obscurity Records',
                 year: 2021,
                 format: 'Ltd LP box',
-                catalogNumber: 'TOR119'
+                catalogNumber: 'TOR118'
             },
             {
                 label: 'Transcending Obscurity Records',
                 year: 2021,
                 format: 'Vinyl LP',
-                catalogNumber: 'TOR119'
+                catalogNumber: 'TOR118'
             },
             {
                 label: 'Transcending Obscurity Records',
                 year: 2021,
                 format: 'Ltd CD box',
-                catalogNumber: 'TOR119'
+                catalogNumber: 'TOR118'
             },
             {
                 label: 'Transcending Obscurity Records',
                 year: 2021,
                 format: 'Digipak CD',
-                catalogNumber: 'TOR119'
+                catalogNumber: 'TOR118'
             },
         ],
         images: [
