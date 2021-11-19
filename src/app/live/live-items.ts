@@ -4,9 +4,12 @@ export const Upcoming = [
     {
         date: '04.12.2021',
         description: 'Hammer Smashed Fest II, Lisbon',
-        poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2021.jpg',
+        poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2021-final.jpg',
         link: 'https://www.facebook.com/MisophoniaProducoes'
-    },
+    }
+];
+
+export const Past = [
     {
         date: '12.11.2021',
         description: 'Degenerations release gig, Good Omens, Trondheim',
@@ -16,11 +19,9 @@ export const Upcoming = [
     {
         date: '11.11.2021',
         description: 'Degenerations release gig, Blå, Oslo',
-        link: 'https://www.blaaoslo.no/arrangementer/diskord/'
+        link: 'https://www.blaaoslo.no/arrangementer/diskord/',
+        poster: 'assets/img/posters/diskord-blaa-2021-11-11.jpg'
     },
-];
-
-export const Past = [
     {
         date: 'October 2018', description: 'Japan!',
         gigs: [
