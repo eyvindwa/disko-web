@@ -4,7 +4,7 @@ export const Upcoming = [
     {
         date: '22-24.09.2022',
         description: 'L\'Homme Sauvage festival, Pyrénés, France',
-        poster: 'assets/img/posters/Homme-Sauvage-2022.jpg',
+        poster: 'assets/img/posters/Homme-Sauvage-2022.jpeg',
         link: 'https://www.hommesauvage.net/'
     },
     {
