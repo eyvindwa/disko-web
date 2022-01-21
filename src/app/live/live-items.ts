@@ -2,16 +2,16 @@
 
 export const Upcoming = [
     {
+        date: '26.02.2022',
+        description: 'Hammer Smashed Fest II, Lisbon',
+        poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2022-final.png',
+        link: 'https://www.facebook.com/MisophoniaProducoes'
+    },
+    {
         date: '22-24.09.2022',
         description: 'L\'Homme Sauvage festival, Pyrénés, France',
         poster: 'assets/img/posters/Homme-Sauvage-2022.jpeg',
         link: 'https://www.hommesauvage.net/'
-    },
-    {
-        date: 'POSTPONED - New date TBA',
-        description: 'Hammer Smashed Fest II, Lisbon',
-        poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2021-final.jpg',
-        link: 'https://www.facebook.com/MisophoniaProducoes'
     }
 ];
 
