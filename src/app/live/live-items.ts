@@ -8,6 +8,24 @@ export const Upcoming = [
         link: 'https://www.facebook.com/MisophoniaProducoes'
     },
     {
+        date: '12.03.2022',
+        description: 'USF Verftet, Bergen, together with Ruun and more TBA',
+        poster: 'assets/img/posters/Ruun-Tour-2022.png',
+        link: 'https://www.facebook.com/BrennAltBooking/'
+    },
+    {
+        date: '18.03.2022',
+        description: 'Felix, Lillehammer, together with Ruun, Deception and Wayward Dawn',
+        poster: 'assets/img/posters/Ruun-Tour-2022.png',
+        link: 'https://www.facebook.com/BrennAltBooking/'
+    },
+    {
+        date: '26-28.08.2022',
+        description: 'Hellbotn Metalfest, Kolbotn',
+        poster: 'assets/img/posters/Hellbotn-2022.jpeg',
+        link: 'https://www.facebook.com/events/1072463383548510'
+    },
+    {
         date: '22-24.09.2022',
         description: 'L\'Homme Sauvage festival, Pyrénés, France',
         poster: 'assets/img/posters/Homme-Sauvage-2022.jpeg',
