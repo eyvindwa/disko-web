@@ -2,24 +2,6 @@
 
 export const Upcoming = [
     {
-        date: '26.02.2022',
-        description: 'Hammer Smashed Fest II, Lisbon',
-        poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2022-final.png',
-        link: 'https://www.facebook.com/MisophoniaProducoes'
-    },
-    {
-        date: '12.03.2022',
-        description: 'USF Verftet, Bergen, together with Ruun and more TBA',
-        poster: 'assets/img/posters/Ruun-Tour-2022.jpeg',
-        link: 'https://www.facebook.com/BrennAltBooking/'
-    },
-    {
-        date: '18.03.2022',
-        description: 'Felix, Lillehammer, together with Ruun, Deception and Wayward Dawn',
-        poster: 'assets/img/posters/Ruun-Tour-2022.jpeg',
-        link: 'https://www.facebook.com/BrennAltBooking/'
-    },
-    {
         date: '26-28.08.2022',
         description: 'Hellbotn Metalfest, Kolbotn',
         poster: 'assets/img/posters/Hellbotn-2022.jpg',
@@ -30,10 +12,33 @@ export const Upcoming = [
         description: 'L\'Homme Sauvage festival, Pyrénés, France',
         poster: 'assets/img/posters/Homme-Sauvage-2022.jpeg',
         link: 'https://www.hommesauvage.net/'
+    },
+    {
+        date: '25-26.11.2022',
+        description: 'Beyond the Grave Festival',
+        link: 'https://www.facebook.com/BTGFestival'
     }
 ];
 
 export const Past = [
+    {
+        date: 'CANCELLED - 18.03.2022',
+        description: 'Felix, Lillehammer, together with Ruun, Deception and Wayward Dawn',
+        poster: 'assets/img/posters/Ruun-Tour-2022.jpeg',
+        link: 'https://www.facebook.com/BrennAltBooking/'
+    },
+    {
+        date: '12.03.2022',
+        description: 'USF Verftet, Bergen, together with Ruun and more TBA',
+        poster: 'assets/img/posters/Ruun-Tour-2022.jpeg',
+        link: 'https://www.facebook.com/BrennAltBooking/'
+    },
+    {
+        date: '26.02.2022',
+        description: 'Hammer Smashed Fest II, Lisbon',
+        poster: 'assets/img/posters/Hammer-Smashed-Fest-II-2022-final.png',
+        link: 'https://www.facebook.com/MisophoniaProducoes'
+    },
     {
         date: '12.11.2021',
         description: 'Degenerations release gig, Good Omens, Trondheim',
