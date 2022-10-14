@@ -2,11 +2,35 @@
 
 export const Upcoming = [
     {
-        date: '26-28.08.2022',
-        description: 'Hellbotn Metalfest, Kolbotn',
-        poster: 'assets/img/posters/Hellbotn-2022.jpg',
-        link: 'https://www.facebook.com/events/1072463383548510'
-    },
+        date: 'November 2022',
+        description: 'UK mini tour with Atvm',
+        gigs: [
+            {
+                date: 'Tuesday 22.11.2022',
+                description: 'The Bloc, Glasgow',
+            },
+            {
+                date: 'Wednesday 23.11.2022',
+                description: 'Trillians, Newcastle',
+            },            
+            {
+                date: 'Thursday 24.11.2022',
+                description: 'Boom, Leeds',
+            },
+            {
+                date: 'Friday 25.11.2022',
+                description: 'Beyond the Grave Festival',
+                link: 'https://www.facebook.com/BTGFestival'
+            },
+            {
+                date: 'Saturday 24.11.2022',
+                description: 'The Gryphon, Bristol',
+            }
+        ]
+    }
+];
+
+export const Past = [
     {
         date: '22-24.09.2022',
         description: 'L\'Homme Sauvage festival, Pyrénés, France',
@@ -14,13 +38,11 @@ export const Upcoming = [
         link: 'https://www.hommesauvage.net/'
     },
     {
-        date: '25-26.11.2022',
-        description: 'Beyond the Grave Festival',
-        link: 'https://www.facebook.com/BTGFestival'
-    }
-];
-
-export const Past = [
+        date: '26-28.08.2022',
+        description: 'Hellbotn Metalfest, Kolbotn',
+        poster: 'assets/img/posters/Hellbotn-2022.jpg',
+        link: 'https://www.facebook.com/events/1072463383548510'
+    },
     {
         date: 'CANCELLED - 18.03.2022',
         description: 'Felix, Lillehammer, together with Ruun, Deception and Wayward Dawn',
