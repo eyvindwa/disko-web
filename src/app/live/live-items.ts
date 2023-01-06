@@ -2,7 +2,7 @@
 
 export const Upcoming = [
     {
-        date: '05-06.05.2022',
+        date: '05-06.05.2023',
         description: 'Transcending Obscurity Records Fest, Prague, Czech Republic',
         link: 'https://www.facebook.com/events/1294179311315832'
     }
