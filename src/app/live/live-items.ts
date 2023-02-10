@@ -2,9 +2,24 @@
 
 export const Upcoming = [
     {
+        date: '04.04.2023',
+        description: 'Stockholm, Debaser, with Imperial Triumphant',
+        poster: 'assets/img/posters/imperial-triumphant-2023.jpeg'
+    },
+    {
+        date: '06.04.2023',
+        description: 'Gothenburg, Musikens Hus, with Imperial Triumphant',
+        poster: 'assets/img/posters/imperial-triumphant-2023.jpeg'
+    },
+    {
         date: '05-06.05.2023',
         description: 'Transcending Obscurity Records Fest, Prague, Czech Republic',
         link: 'https://www.facebook.com/events/1294179311315832'
+    },
+    {
+        date: '01-02.12.2023',
+        description: 'Oslo Death Fest 2023',
+        poster: 'assets/img/posters/diskord-oslo-death-fest-2023-jpeg'
     }
 ];
 
