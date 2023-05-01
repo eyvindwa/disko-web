@@ -2,6 +2,27 @@
 
 export const Upcoming = [
     {
+        date: '05-06.05.2023',
+        description: 'Transcending Obscurity Records Fest, Prague, Czech Republic',
+        link: 'https://www.facebook.com/events/1294179311315832',
+        poster: 'assets/img/posters/to-fest-prague-2023.jpg'
+    },
+    {
+        date: '17.05.2023',
+        description: 'Vaterland, Oslo, with Inchoation and Horrifier',
+        link: 'https://www.facebook.com/events/742239207370134',
+        poster: 'assets/img/posters/Vaterland-2023-05-16-v1.jpg'
+    },
+    {
+        date: '01-02.12.2023',
+        description: 'Oslo Death Fest 2023',
+        link: 'https://www.facebook.com/oslodeathfest',
+        poster: 'assets/img/posters/diskord-oslo-death-fest-2023.jpeg'
+    }
+];
+
+export const Past = [
+    {
         date: '04.04.2023',
         description: 'Stockholm, Debaser, with Imperial Triumphant',
         poster: 'assets/img/posters/imperial-triumphant-2023.jpeg'
@@ -12,19 +33,6 @@ export const Upcoming = [
         poster: 'assets/img/posters/imperial-triumphant-2023.jpeg'
     },
     {
-        date: '05-06.05.2023',
-        description: 'Transcending Obscurity Records Fest, Prague, Czech Republic',
-        link: 'https://www.facebook.com/events/1294179311315832'
-    },
-    {
-        date: '01-02.12.2023',
-        description: 'Oslo Death Fest 2023',
-        poster: 'assets/img/posters/diskord-oslo-death-fest-2023-jpeg'
-    }
-];
-
-export const Past = [
-       {
         date: 'November 2022',
         description: 'UK mini tour with Atvm',
         gigs: [
