@@ -15,11 +15,12 @@ import { ContactComponent } from './contact/contact.component';
 import { FrontCarouselComponent } from './front-carousel/front-carousel.component';
 import { VideosComponent } from './videos/videos.component';
 import { SafePipe } from './safe.pipe';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
       {
-        path: 'news',
-        component: NewsComponent
+        path: 'home',
+        component: HomeComponent
       },
       {
         path: 'about',
@@ -43,7 +44,7 @@ const appRoutes: Routes = [
       },
       {
         path: '',
-        redirectTo: 'news',
+        redirectTo: 'home',
         pathMatch: 'full'
       }
     ];
@@ -60,7 +61,8 @@ const appRoutes: Routes = [
     ContactComponent,
     FrontCarouselComponent,
     VideosComponent,
-    SafePipe
+    SafePipe,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
