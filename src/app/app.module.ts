@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NewsComponent } from './news/news.component';
 import { AboutComponent } from './about/about.component';
 import { DiscoComponent } from './disco/disco.component';
 import { LiveComponent } from './live/live.component';
@@ -52,7 +51,6 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    NewsComponent,
     AboutComponent,
     DiscoComponent,
     LiveComponent,
