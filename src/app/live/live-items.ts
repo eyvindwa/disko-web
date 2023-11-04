@@ -6,6 +6,11 @@ export const Upcoming = [
         description: 'Oslo Death Fest 2023',
         link: 'https://www.facebook.com/oslodeathfest',
         poster: 'assets/img/posters/diskord-oslo-death-fest-2023.jpeg'
+    },
+    {
+        date: '25-28.09.2024',
+        description: 'Legend Metalfest Trondheim 2024',
+        link: 'https://www.facebook.com/legendmetalfest/'
     }
 ];
 
