@@ -2,14 +2,19 @@
 
 export const Upcoming = [
     {
-        date: '01-02.12.2023',
-        description: 'Oslo Death Fest 2023',
-        link: 'https://www.facebook.com/oslodeathfest',
-        poster: 'assets/img/posters/diskord-oslo-death-fest-2023.jpeg'
+        date: '25-28.09.2024',
+        description: 'Legend Metalfest Trondheim 2024',
+        link: 'https://www.facebook.com/legendmetalfest/'
     }
 ];
 
 export const Past = [
+    {
+        date: '01-02.12.2023',
+        description: 'Oslo Death Fest 2023',
+        link: 'https://www.facebook.com/oslodeathfest',
+        poster: 'assets/img/posters/diskord-oslo-death-fest-2023.jpeg'
+    },
     {
         date: '16.05.2023',
         description: 'Vaterland, Oslo, with Inchoation and Horrifier',
