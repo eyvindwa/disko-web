@@ -16,8 +16,8 @@ To order items from the discography directly from the band, check out our
 
 <div style="clear:both"></div>
 
-<h2>Demos</h2>
-<div class="disco-thumb" *ngFor="let item of demos;  let i = index">
+<h2>Split releases</h2>
+<div class="disco-thumb" *ngFor="let item of compilations;  let i = index">
   <a href="disco#anchor-{{item.title}}">
   <img class="img-rounded disco-img-thumb" src="{{item.images[0].path}}">
   <p>
@@ -27,8 +27,8 @@ To order items from the discography directly from the band, check out our
 
 <div style="clear:both"></div>
 
-<h2>Splits, compilations & misc.</h2>
-<div class="disco-thumb" *ngFor="let item of compilations;  let i = index">
+<h2>Demos</h2>
+<div class="disco-thumb" *ngFor="let item of demos;  let i = index">
   <a href="disco#anchor-{{item.title}}">
   <img class="img-rounded disco-img-thumb" src="{{item.images[0].path}}">
   <p>

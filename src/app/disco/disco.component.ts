@@ -11,7 +11,7 @@ export class DiscoComponent implements OnInit {
   official = Official;
   demos = Demos;
   compilations = Compilations;
-  completeDisco = this.official.concat(this.demos).concat(this.compilations);
+  completeDisco = this.official.concat(this.compilations).concat(this.demos);
 
   constructor() { }
 
