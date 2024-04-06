@@ -10,7 +10,7 @@ export const Upcoming = [
         date: '25-28.09.2024',
         description: 'Legend Metalfest Trondheim 2024',
         link: 'https://www.facebook.com/legendmetalfest/',
-        poster: 'assets/img/posters/Legen-Metalfest-2024.jpeg'
+        poster: 'assets/img/posters/Legend-Metalfest-2024.jpeg'
     }
 ];
 
