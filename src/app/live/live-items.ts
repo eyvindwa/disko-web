@@ -2,9 +2,15 @@
 
 export const Upcoming = [
     {
+        date: '07-10.08.2024',
+        description: 'Brutal Assault Festival 2024',
+        link: 'https://brutalassault.cz/en'
+    },
+    {
         date: '25-28.09.2024',
         description: 'Legend Metalfest Trondheim 2024',
-        link: 'https://www.facebook.com/legendmetalfest/'
+        link: 'https://www.facebook.com/legendmetalfest/',
+        poster: 'assets/img/posters/Legen-Metalfest-2024.jpeg'
     }
 ];
 
