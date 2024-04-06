@@ -8,6 +8,7 @@
 # dependencies
 /node_modules
 
+
 # IDEs and editors
 /.idea
 .project
@@ -18,7 +19,7 @@
 *.sublime-workspace
 
 # Angular
-.angular
+.angular/*
 
 # IDE - VSCode
 .vscode/*
