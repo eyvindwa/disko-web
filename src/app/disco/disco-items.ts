@@ -476,6 +476,58 @@ export const Demos: DiscoItem[] = [
 
 export const Compilations: DiscoItem[] = [
     /* **************************
+    Bipolarities
+    *************************** */
+    {
+        title: 'Bipolarities',
+        identifier: 'Bipolarities',
+        versions: [
+            {
+                label: 'Transcending Obscurity Records',
+                year: 2024,
+                format: 'Vinyl LP',
+                catalogNumber: 'TOR200'
+            },
+            {
+                label: 'Transcending Obscurity Records',
+                year: 2024,
+                format: 'Tape',
+                catalogNumber: 'TOR200'
+            },
+            {
+                label: 'Transcending Obscurity Records',
+                year: 2024,
+                format: 'Digipak CD',
+                catalogNumber: 'TOR200'
+            },
+        ],
+        images: [
+            {
+                path: 'assets/img/releases/bipolarities/bipolarities-front-cover.jpg',
+                caption: 'Bipolarities front cover, by Will Sweeney'
+            },
+            {
+                path: 'assets/img/releases/bipolarities/bipolarities-merch.jpg',
+                caption: 'Some of the Bipolarities merch variants'
+            }
+        ],
+        quotes: [],
+        lineup: [
+            {
+                name: 'Hans Jørgen',
+                instrument: 'Drums and vocals'
+            },
+            {
+                name: 'Eyvind',
+                instrument: 'Bass and vocals'
+            },
+            {
+                name: 'Dmitry',
+                instrument: 'Guitar and vocals',
+            }
+        ]
+    },
+    /* **************************
     OSLO WE ROT
     *************************** */
     {
