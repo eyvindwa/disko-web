@@ -1,15 +1,15 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
+];
+
+export const Past = [
     {
         date: '25-28.09.2024',
         description: 'Legend Metalfest Trondheim 2024',
         link: 'https://www.facebook.com/legendmetalfest/',
         poster: 'assets/img/posters/Legend-Metalfest-2024.jpeg'
-    }
-];
-
-export const Past = [
+    },
     {
         date: '07-10.08.2024',
         description: 'Brutal Assault Festival 2024',
