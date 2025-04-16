@@ -1,6 +1,22 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
+  {
+    date: '29.05.2025',
+    description: 'Last Train, Oslo, with Repulsive Feast and Contorted',
+    link: 'https://www.facebook.com/events/1700026431398844/',
+    poster: 'assets/img/posters/Malevolent-May-ODF-2025.jpg'
+  },
+  {
+    date: '06.06.2025',
+    description: 'Finnish Death Metal Maniacs Festival 2025',
+    link: 'https://www.facebook.com/events/452679484105699',
+    poster: 'assets/img/posters/FDMM-2025.jpg'
+  },
+  {
+    date: '07.06.2025',
+    description: 'Tallinn, TBA'
+  }
 ];
 
 export const Past = [
