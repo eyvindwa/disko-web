@@ -3,7 +3,7 @@
 export const Upcoming = [
   {
         date: '22.11.2025',
-        description: 'Death is Not the End Festival, Chapter II, Wroclaw, Poland',
+        description: 'Death is Not the End Festival, Chapter II, Gdansk, Poland',
         link: 'https://www.facebook.com/events/1046273484230303/'
   },
 ];
