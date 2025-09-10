@@ -1,13 +1,17 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
-
+  {
+        date: '22.11.2025',
+        description: 'Death is Not the End Festival, Chapter II, Wroclaw, Poland',
+        link: 'https://www.facebook.com/events/1046273484230303/'
+  },
 ];
 
 export const Past = [
   {
         date: '07.06.2025',
-        description: 'Tallinn, The Krypt'
+        description: 'Tallinn, Estonia at The Krypt'
   },
   {
         date: '06.06.2025',
