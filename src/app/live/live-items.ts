@@ -2,6 +2,11 @@
 
 export const Upcoming = [
   {
+        date: '11.10.2025',
+        description: 'Southern Discomfort 2025, Kristiandsand, Norway',
+        link: 'https://southern.no/'
+  },
+  {
         date: '22.11.2025',
         description: 'Death is Not the End Festival, Chapter II, Gdansk, Poland',
         link: 'https://www.facebook.com/events/1046273484230303/'
