@@ -11,6 +11,16 @@ export const Upcoming = [
         description: 'Death is Not the End Festival, Chapter II, Gdansk, Poland',
         link: 'https://www.facebook.com/events/1046273484230303/'
   },
+  {
+        date: '06.02.2026',
+        description: 'BrutalFest 2026, Tampere, Finland',
+        link: 'https://www.facebook.com/events/1083279167295748/'
+  },
+  {
+        date: '07.02.2026',
+        description: 'BrutalFest 2026, Helsinki, Finland',
+        link: 'https://www.facebook.com/events/2046402875764962'
+  }  
 ];
 
 export const Past = [
