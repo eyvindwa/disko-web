@@ -3,7 +3,7 @@
 export const Upcoming = [
   {
         date: '11.10.2025',
-        description: 'Southern Discomfort 2025, Kristiandsand, Norway',
+        description: 'Southern Discomfort 2025, Kristiansand, Norway',
         link: 'https://southern.no/'
   },
   {
