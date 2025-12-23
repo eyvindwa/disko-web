@@ -2,16 +2,6 @@
 
 export const Upcoming = [
   {
-        date: '11.10.2025',
-        description: 'Southern Discomfort 2025, Kristiansand, Norway',
-        link: 'https://southern.no/'
-  },
-  {
-        date: '22.11.2025',
-        description: 'Death is Not the End Festival, Chapter II, Gdansk, Poland',
-        link: 'https://www.facebook.com/events/1046273484230303/'
-  },
-  {
         date: '06.02.2026',
         description: 'BrutalFest 2026, Tampere, Finland',
         link: 'https://www.facebook.com/events/1083279167295748/'
@@ -24,6 +14,16 @@ export const Upcoming = [
 ];
 
 export const Past = [
+  {
+        date: '22.11.2025',
+        description: 'Death is Not the End Festival, Chapter II, Gdansk, Poland',
+        link: 'https://www.facebook.com/events/1046273484230303/'
+  },
+  {
+        date: '11.10.2025',
+        description: 'Southern Discomfort 2025, Kristiansand, Norway',
+        link: 'https://southern.no/'
+  },
   {
         date: '07.06.2025',
         description: 'Tallinn, Estonia at The Krypt'
