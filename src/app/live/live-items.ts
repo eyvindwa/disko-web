@@ -2,18 +2,23 @@
 
 export const Upcoming = [
   {
-        date: '06.02.2026',
-        description: 'BrutalFest 2026, Tampere, Finland',
-        link: 'https://www.facebook.com/events/1083279167295748/'
-  },
-  {
-        date: '07.02.2026',
-        description: 'BrutalFest 2026, Helsinki, Finland',
-        link: 'https://www.facebook.com/events/2046402875764962'
+        date: '28-30.05.2026',
+        description: 'Öland Rots, Öland, Sweden',
+        link: 'https://olandrots.se/'
   }  
 ];
 
 export const Past = [
+  {
+        date: '07.02.2026',
+        description: 'BrutalFest 2026, Helsinki, Finland',
+        link: 'https://www.facebook.com/events/2046402875764962'
+  }, 
+  {
+        date: '06.02.2026',
+        description: 'BrutalFest 2026, Tampere, Finland',
+        link: 'https://www.facebook.com/events/1083279167295748/'
+  },
   {
         date: '22.11.2025',
         description: 'Death is Not the End Festival, Chapter II, Gdansk, Poland',
