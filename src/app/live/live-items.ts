@@ -1,14 +1,14 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
+];
+
+export const Past = [
   {
         date: '28-30.05.2026',
         description: 'Öland Rots, Öland, Sweden',
         link: 'https://olandrots.se/'
-  }  
-];
-
-export const Past = [
+  },
   {
         date: '07.02.2026',
         description: 'BrutalFest 2026, Helsinki, Finland',
