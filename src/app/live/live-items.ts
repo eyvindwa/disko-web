@@ -1,6 +1,11 @@
 // tslint:disable:max-line-length
 
 export const Upcoming = [
+  {
+    date: '24.11.2026',
+    description: 'Celestial Scourge release party at Parkteatret, Oslo, Norway',
+    link: 'https://www.ticketmaster.no/artist/celestial-scourge-billetter/1428574?brand=parkteatret&venueId=5067',
+  }
 ];
 
 export const Past = [
